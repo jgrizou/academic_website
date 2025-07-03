@@ -1,0 +1,473 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>This interface can read your mind - Jonathan Grizou</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Jonathan Grizou">
+<meta property="og:title" content="This interface can read your mind">
+
+
+  <link rel="canonical" href="http://localhost:4000/academic_website/projects/this-interface-can-read-your-mind">
+  <meta property="og:url" content="http://localhost:4000/academic_website/projects/this-interface-can-read-your-mind">
+
+
+
+  <meta property="og:description" name="description" content="A web-app to explain self-calibrating interfaces.">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2019-08-01T00:00:00+00:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Jonathan Grizou",
+      "url" : "http://localhost:4000/academic_website",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/academic_website/feed.xml" type="application/atom+xml" rel="alternate" title="Jonathan Grizou Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/academic_website/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/academic_website/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/academic_website/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/academic_website/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/academic_website/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/academic_website/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/academic_website/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/academic_website/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/academic_website/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/academic_website/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="http://localhost:4000/academic_website/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/academic_website/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/academic_website/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/academic_website/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/academic_website/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="http://localhost:4000/academic_website/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="http://localhost:4000/academic_website/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="http://localhost:4000/academic_website/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="http://localhost:4000/academic_website/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/academic_website/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/academic_website/">Jonathan Grizou</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://www.grizai.com/">Consulting</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/academic_website/projects/">Projects</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://scholar.google.fr/citations?hl=en&user=Fej-hGQAAAAJ&view_op=list_works&sortby=pubdate">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://blog.jgrizou.com/essays/">Essays</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/academic_website/teaching/">Teaching</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/academic_website/images/profile.png" class="author__avatar" alt="Jonathan Grizou">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Jonathan Grizou</h3>
+    
+    <p class="author__bio">I offer consulting services in Data Science, Artificial Intelligence, Machine Learning and Robotics with a focus on tech start-ups. My interdisciplinary experiences and application mindset allow me to adapt quickly to various industries.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Glasgow, UK</li>
+      
+      
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>University Of Glasgow</li>
+      
+      
+      
+        <li><a href="mailto:jonathan.grizou@grizai.com"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+        <li><a href="https://scholar.google.fr/citations?hl=en&user=Fej-hGQAAAAJ&view_op=list_works&sortby=pubdate"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+      
+      
+      
+      
+                              
+      
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/jgrizou"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+      
+        <li><a href="https://www.linkedin.com/in/jonathangrizou"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="This interface can read your mind">
+    <meta itemprop="description" content="A web-app to explain self-calibrating interfaces.">
+    <meta itemprop="datePublished" content="August 01, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">This interface can read your mind
+</h1>
+          
+        
+        
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2019-08-01T00:00:00+00:00">August 01, 2019</time></p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <blockquote>
+  <p><strong>UPDATE:</strong> The page below is deprecated and might be hard to understand without prior knowledge, please read <a href="https://arxiv.org/pdf/2212.05766.pdf">https://arxiv.org/pdf/2212.05766.pdf</a> for now.</p>
+</blockquote>
+
+<h3 id="this-interface-can-read-your-mind">This interface can read your mind</h3>
+
+<p>Last update: August 2019<br />
+<em>A web-app to explain self-calibrating interfaces.</em></p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>Below is a typical user interface. It is a code entering device. To enter a code, you look at the digit you want to type, if it is yellow you click on the yellow button. If it is grey, you click on the grey button. And the machine will find out the digit you have in mind by elimination.</p>
+
+<p><img src="../images/demo_1x2_2.gif" alt="Demo 1" /></p>
+
+<p>With two big colored buttons, this interface is designed to remove most user choices and channel you to behave in one standardized way. The aim is normative, it is more efficient and convenient for the designers if we all behave the same way, and it is also easier to predict your future actions. Think of apps like Instagram or Twitter, designers have done a great job at funneling our interaction there.</p>
+
+<p>But let me show you another way to interact with digital devices.</p>
+
+<p>Below is the same interface but buttons have no predefined colors. You get to decide the buttons’ color in your mind, and the machine adapts to your preferences on the fly.</p>
+
+<p><img src="../images/demo_3x3_fullpad_1.gif" alt="User 1 choice" /><br />
+<strong>User 1 choice.</strong></p>
+
+<p><img src="../images/demo_3x3_fullpad_2.gif" alt="User 2 choice" /><br />
+<strong>User 2 choice.</strong></p>
+
+<p><img src="../images/demo_3x3_fullpad_3.gif" alt="User 3 choice" /><br />
+<strong>User 3 choice.</strong></p>
+
+<p>Notice how, once revealed, the color patterns on buttons are different for each user. This reflects their personal preferences. Each user typed in the same digit but they used the buttons differently to do so. Yet the machine was able to adapt, finding both what the user wanted to do (enter the digit 1) and how it was trying to do it (the colors associated to each button).</p>
+
+<p>I call these <em>self-calibrating interfaces</em> because they adapt to your preferences while you are using them.</p>
+
+<p>You will find below several options to play with these interfaces and gain a deeper understanding of how they work.</p>
+
+<h3 id="learning-tracks">Learning tracks</h3>
+
+<p>Quick access: <a href="crack-it">Crack it</a> <a href="try-it">Try it</a> <a href="grasp-it">Grasp it</a></p>
+
+<hr />
+
+<h3 id="crack-it--the-open-vault-challenge">Crack it – the open vault challenge</h3>
+
+<blockquote>
+  <p>When you teach a child something you take away forever his chance of discovering it for himself – Jean Piaget</p>
+</blockquote>
+
+<p>If you want to really get it, you should reinvent it for yourself. So I have designed a challenge tailored for participants to gain an intuitive understanding of self-calibrating interfaces.</p>
+
+<p>In this challenge, you will see me entering a secret code in various interfaces. Your goal is to crack the code and enter it correctly into the interface. By doing so you are forced to think like the machine.</p>
+
+<p>The challenge is divided into levels of increasing complexity, designed for a progressive learning experience. Clues and take home messages are available if you get stuck.</p>
+
+<p><a href="https://jgrizou.com/projects/vault/challenge">Go to challenge</a></p>
+
+<hr />
+
+<h3 id="try-it">Try it</h3>
+
+<p>If you do not have time for the challenge, you can directly try any version below.</p>
+
+<p><img src="../images/demo_1x2_2-1.gif" alt="Demo 2" /><br />
+<a href="https://jgrizou.com/projects/vault/demo/1x2/">2 buttons</a></p>
+
+<p><img src="../images/demo_3x3_fullpad_1.gif" alt="Demo 3" /><br />
+<a href="https://jgrizou.com/projects/vault/demo/3x3/">9 buttons</a></p>
+
+<p><img src="../images/demo_touch_1.gif" alt="Demo 4" /><br />
+<a href="https://jgrizou.com/projects/vault/demo/1x2/">Touch</a></p>
+
+<p><img src="../images/demo_draw_1.gif" alt="Demo 5" /><br />
+<strong>Draw</strong></p>
+
+<p><img src="../images/demo_audio_1.gif" alt="Demo 6" /><br />
+<a href="https://jgrizou.com/projects/vault/demo/1x2/">Speak</a></p>
+
+<p><img src="../images/demo_keyboard_1.gif" alt="Demo 7" /><br />
+<a href="https://jgrizou.com/projects/vault/demo/1x2/">Keyboard</a></p>
+
+<p>For each version, a small explanatory text is provided along with a didactic video. If this is your first time, I recommend going through each version in order.</p>
+
+<p><a href="https://jgrizou.com/projects/vault/demo">Go to demo</a></p>
+
+<hr />
+
+<h3 id="grasp-it--look-under-the-hood">Grasp it – look under the hood</h3>
+
+<p>If you want to see how it works, I have built a little window into the machinery powering the interface. It provides detailed feedback about the current state of the machine.</p>
+
+<p>It also allows you to challenge the interface in complex ways. For example, I sometimes use these advanced versions to fool the machine into making a false prediction, or to select my actions such that it takes the longest possible time to identify a digit.</p>
+
+<p><a href="https://jgrizou.com/contact/projects/vault/tuto">Go to tutorial</a></p>
+
+<hr />
+
+<h3 id="wait-but-why">Wait but why?</h3>
+
+<p>Because I have consistently failed to explain what a self-calibrating interface does to other researchers, friends or family in a few minutes. This web application is my attempt at explaining, showing, and getting people to feel what a self-calibrating interface does in one minute on my phone.</p>
+
+<p>I also have the intuition that this technology can be useful. But I cannot figure out how on my own, I am too involved in the research and find it hard to think outside the box. By implementing this technology into an easy-to-share demonstration, I am hoping to reach a variety of people. And maybe one day someone will figure out a place to apply it for good. If you think of some application, feel free to <a href="https://jgrizou.com/contact/">contact me</a>.</p>
+
+<hr />
+
+<h3 id="resources">Resources</h3>
+
+<ol>
+  <li><strong>The Open Vault Challenge – Learning how to build calibration-free interactive systems by cracking the code of a vault.</strong> Grizou, J. (2019). <em>International Joint Conferences on Artificial Intelligence.</em>
+    <ul>
+      <li><a href="https://arxiv.org/pdf/1906.02485.pdf">pdf</a></li>
+      <li><a href="https://doi.org/10.24963/ijcai.2019/942">doi</a></li>
+      <li><a href="https://jgrizou.github.io/website/projects/vault">project</a></li>
+    </ul>
+  </li>
+</ol>
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+<!-- <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/academic_website/projects/this-interface-can-read-your-mind" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/academic_website/projects/this-interface-can-read-your-mind" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/academic_website/projects/this-interface-can-read-your-mind" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section> -->
+
+
+      
+
+<!-- 
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/academic_website/portfolio/portfolio-2/" class="pagination--pager" title="Smaller projects
+">Previous</a>
+    
+    
+      <a href="http://localhost:4000/academic_website/projects/vault" class="pagination--pager" title="Self-calibrating code entering interface
+">Next</a>
+    
+  </nav>
+ -->
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <script src="http://localhost:4000/academic_website/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

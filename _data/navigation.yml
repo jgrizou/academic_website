@@ -1,0 +1,45 @@
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+
+main:
+  # - title: "Home"
+  #   url: /publications/
+
+  # - title: "About"
+  #  url: /talks/
+
+  - title: "Consulting"
+    url: https://www.grizai.com/
+    weight: 5
+    external: true
+
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Publications"
+    url: https://scholar.google.fr/citations?hl=en&user=Fej-hGQAAAAJ&view_op=list_works&sortby=pubdate
+    weight: 5
+    external: true
+
+  - title: "Essays"
+    url: https://blog.jgrizou.com/essays/
+    weight: 5
+    external: true
+    
+  - title: "Teaching"
+    url: /teaching/
+
+  # - title: "Portfolio"
+  #  url: /portfolio/
+
+  #- title: "Projects"
+  #  url: /projects/
+
+  # - title: "Contact"
+  #  url: /year-archive/
+
+  #- title: "Testimonials"
+   # url: /markdown/

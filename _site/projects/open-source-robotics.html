@@ -1,0 +1,639 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Open Source Robotics - Jonathan Grizou</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Jonathan Grizou">
+<meta property="og:title" content="Open Source Robotics">
+
+
+  <link rel="canonical" href="http://localhost:4000/academic_website/projects/open-source-robotics">
+  <meta property="og:url" content="http://localhost:4000/academic_website/projects/open-source-robotics">
+
+
+
+  <meta property="og:description" name="description" content="Open source roboticsLast update: January 2019">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2019-01-15T00:00:00+00:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Jonathan Grizou",
+      "url" : "http://localhost:4000/academic_website",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/academic_website/feed.xml" type="application/atom+xml" rel="alternate" title="Jonathan Grizou Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/academic_website/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/academic_website/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/academic_website/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/academic_website/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/academic_website/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/academic_website/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/academic_website/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/academic_website/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/academic_website/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/academic_website/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="http://localhost:4000/academic_website/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/academic_website/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/academic_website/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/academic_website/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/academic_website/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="http://localhost:4000/academic_website/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="http://localhost:4000/academic_website/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="http://localhost:4000/academic_website/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="http://localhost:4000/academic_website/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/academic_website/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/academic_website/">Jonathan Grizou</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://www.grizai.com/">Consulting</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/academic_website/projects/">Projects</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://scholar.google.fr/citations?hl=en&user=Fej-hGQAAAAJ&view_op=list_works&sortby=pubdate">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://blog.jgrizou.com/essays/">Essays</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/academic_website/teaching/">Teaching</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/academic_website/images/profile.png" class="author__avatar" alt="Jonathan Grizou">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Jonathan Grizou</h3>
+    
+    <p class="author__bio">I offer consulting services in Data Science, Artificial Intelligence, Machine Learning and Robotics with a focus on tech start-ups. My interdisciplinary experiences and application mindset allow me to adapt quickly to various industries.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Glasgow, UK</li>
+      
+      
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>University Of Glasgow</li>
+      
+      
+      
+        <li><a href="mailto:jonathan.grizou@grizai.com"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+        <li><a href="https://scholar.google.fr/citations?hl=en&user=Fej-hGQAAAAJ&view_op=list_works&sortby=pubdate"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+      
+      
+      
+      
+                              
+      
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/jgrizou"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+      
+        <li><a href="https://www.linkedin.com/in/jonathangrizou"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Open Source Robotics">
+    <meta itemprop="description" content="Open source roboticsLast update: January 2019">
+    <meta itemprop="datePublished" content="January 15, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Open Source Robotics
+</h1>
+          
+        
+        
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2019-01-15T00:00:00+00:00">January 15, 2019</time></p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h3 id="open-source-robotics">Open source robotics</h3>
+<p><em>Last update: January 2019</em></p>
+
+<p><em>Robots are coming! Or so they say. I have been interested in robotics for as long as I can remember. Over the years, I struggled my way through the understanding of all technical parts of robot building. And once I became an expert, I grew frustrated by how unnecessarily painful it was to put a robot together. With some friends and colleagues, we have decided to take our part into making robotics more accessible. Below are our attempts, from an open source robotics community of makers, artists, educators, and scientists, to accessible tools for chemists, we even created a start-up.</em></p>
+
+<p><img src="../images/poppy_ergojr_jumping-1.gif" alt="The first Poppy ErgoJr robot jumping." /></p>
+<figcaption>The first Poppy ErgoJr robot jumping.</figcaption>
+
+<p><img src="../images/cronin_dropfactory.gif" alt="Open source laboratory robot I developed." /></p>
+<figcaption>Open source laboratory robot I developed.</figcaption>
+
+<hr />
+
+<h3 id="content">Content</h3>
+<ul>
+  <li><a href="#approach">Approach</a></li>
+  <li><a href="#team">Team</a></li>
+  <li><a href="#projects">Projects</a>
+    <ul>
+      <li><a href="#poppy-project">Poppy Project – Open source robots for art, science, and education</a></li>
+      <li><a href="https://jgrizou.com/projects/open-robotics/#laboratory-robotics">Laboratory Robotics – Tools for open research in chemistry labs</a></li>
+      <li><a href="#start-up">Startup – Pollen Robotics &amp; Luos</a></li>
+      <li><a href="#personal-projects">Personal Projects</a></li>
+    </ul>
+  </li>
+  <li><a href="#additional-resources">Resources</a></li>
+</ul>
+
+<hr />
+
+<h3 id="approach">Approach</h3>
+<p>In all projects presented below, we strived to develop empowering tools, both software and hardware, that reduce the complexity required for developing robotic devices. But we did not stop there.</p>
+
+<p>We relentlessly worked to make these tools accessible to all. Our creations are available online for free and with documentation. We also provided demonstrations of our technology in various application domains, from art to science, with one of our projects seeing significant development in school education in France.</p>
+
+<p>On a personal level, I have learned that technology alone can’t make an impact. It needs to be embedded into meaningful products that make what was previously impossible possible, or inaccessible accessible, in our everyday lives.</p>
+
+<hr />
+
+<h3 id="team">Team</h3>
+<p>The <a href="https://jgrizou.github.io/website/projects/open_robotics/#poppy-project">Poppy Project</a> was initiated by Matthieu Lapeyre, Pierre Rouanet, and Pierre-Yves Oudeyer while at INRIA. Didier Roy joined and developed the Poppy Education project, which was introduced to many schools in France. I was part of the founding team and was very active during the period 2012–2016.</p>
+
+<p>The <a href="https://jgrizou.github.io/website/projects/open_robotics/#laboratory-robotics">laboratory robotics work</a> was developed while I worked as a research associate and team leader in a chemistry lab (2015–2017). See the <a href="https://jgrizou.github.io/website/projects/chemobot">associated project page</a> for more info.</p>
+
+<p>The start-up <a href="https://jgrizou.github.io/website/projects/open_robotics/#start-up">Pollen Robotics</a> was co-founded by Matthieu Lapeyre, Pierre Rouanet, Nicolas Rabault, and myself. I acted as COO and departed for new adventures in 2018.</p>
+
+<hr />
+
+<h3 id="projects">Projects</h3>
+
+<h4 id="poppy-project">Poppy Project</h4>
+
+<h5 id="history">History</h5>
+<p>The <a href="https://www.poppy-project.org/en/">Poppy Project</a> was born in 2012 in the Flowers Laboratory at INRIA Bordeaux Sud-Ouest. It was initiated during Matthieu Lapeyre’s PhD Thesis supervised by Pierre-Yves Oudeyer. At the beginning, the development team included Matthieu Lapeyre (mechanics &amp; design), Pierre Rouanet (software), and myself (electronics).</p>
+
+<p><img src="../images/poppy_matthieu.jpg" alt="Matthieu Lapeyre with the first version of Poppy Humanoid." /></p>
+<figcaption>Matthieu Lapeyre with the first version of Poppy Humanoid.</figcaption>
+
+<p>The project grew into an international open-source initiative and gathered a <a href="https://forum.poppy-project.org/">community</a> of makers, artists, educators, and scientists.</p>
+
+<p><img src="../images/poppy_family-1.png" alt="Left: A Poppy Humanoid kit. Middle: Poppy Torso and Poppy ErgoJr. Right: Poppy ErgoJr." /></p>
+<figcaption>Left: A Poppy Humanoid kit. Middle: Poppy Torso and Poppy ErgoJr. Right: Poppy ErgoJr.</figcaption>
+
+<p>Our robots were later used in a national education program to teach robotics and programming in schools. Didier Roy and Pierre-Yves Oudeyer led this effort, forming the <a href="https://www.poppy-education.org/">Poppy Education</a> project at INRIA. This effort gained national recognition, resulting in the creation of an independent educator association, <a href="https://www.poppystation.org/">Poppy Station</a>.</p>
+
+<p><em>Fun fact:</em> Our Humanoid robot met François Hollande, the President of France.</p>
+
+<p><img src="../images/poppy_president.jpeg" alt="Humanoid robot with François Hollande" /></p>
+
+<h5 id="flagship-projects">Flagship Projects</h5>
+<ol>
+  <li><strong>Poppy Humanoid</strong>
+    <ul>
+      <li>An open-source and 3D-printed humanoid robot designed by Matthieu Lapeyre.</li>
+      <li>Optimized for research and education purposes.</li>
+      <li>Code, 3D designs, and documentation are available on GitHub (<a href="https://github.com/poppy-project/poppy-humanoid">&gt;280 stars</a>).</li>
+    </ul>
+
+    <p><a href="https://www.youtube.com/watch?v=qs6-Ei8K8iY"><img src="https://img.youtube.com/vi/qs6-Ei8K8iY/0.jpg" alt="Poppy Humanoid Overview" /></a></p>
+
+    <p><a href="https://www.youtube.com/watch?v=wvu1SD-FM60"><img src="https://img.youtube.com/vi/wvu1SD-FM60/0.jpg" alt="Time lapse of Poppy Humanoid's assembly" /></a></p>
+  </li>
+  <li><strong>Pypot</strong>
+    <ul>
+      <li>A Python library for controlling Dynamixel motors.</li>
+      <li>Designed by Pierre Rouanet.</li>
+      <li>Code and documentation are available on GitHub (<a href="https://github.com/poppy-project/pypot">&gt;170 stars</a>).</li>
+    </ul>
+  </li>
+  <li><strong>Poppy ErgoJr</strong>
+    <ul>
+      <li>A small and low-cost 6-degree-of-freedom robot arm.</li>
+      <li>Designed for easy 3D printing and assembly.</li>
+      <li>Code, 3D designs, and documentation are available on GitHub (<a href="https://github.com/poppy-project/poppy-ergo-jr">&gt;75 stars</a>).</li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="../images/poppy_ergojr_jumping-300x300.gif" alt="ErgoJr robot jumping." /></p>
+<figcaption>The first Poppy ErgoJr robot jumping.</figcaption>
+
+<p><img src="../images/ergojr_variation.jpg" alt="ErgoJr robot with different tool endings." /></p>
+<figcaption>ErgoJr robot with different tool endings.</figcaption>
+
+<p><a href="https://www.youtube.com/watch?v=cXHeD8XeZTc"><img src="https://img.youtube.com/vi/cXHeD8XeZTc/0.jpg" alt="Poppy ErgoJr Overview" /></a></p>
+
+<p>The ErgoJr robot is the primary robot used by <a href="https://www.poppy-education.org/">Poppy Education</a>, serving thousands of students.</p>
+
+<hr />
+
+<h4 id="websites">Websites:</h4>
+<ul>
+  <li><a href="https://www.poppy-project.org/en/">Poppy Project</a></li>
+  <li><a href="https://www.poppy-education.org/">Poppy Education</a></li>
+  <li><a href="https://www.poppystation.org/">Poppy Station</a></li>
+</ul>
+
+<h3 id="personal-contributions">Personal Contributions</h3>
+
+<p>Between 2012 and 2016, as part of the founding team, I had an active role in the development of the project. I was especially active on the <a href="https://forum.poppy-project.org/">forum</a> to develop the community. I built, and contributed to, several tools and robots.</p>
+
+<h4 id="first-ergojr">First ErgoJr</h4>
+<p>I built the <a href="https://twitter.com/jgrizou/status/563646210058502145">first version</a> of the ErgoJr robot. In the quest of modular robot design, I developed a set of OpenScad libraries to develop parametric robotic parts using code. Full details on the <a href="https://jgrizou.github.io/website/projects/parametric_parts">dedicated project page</a>.</p>
+
+<p><img src="../images/poppy_first_ergo.jpg" alt="The first Poppy ErgoJr robot jumping." /><br />
+<em>The first Poppy ErgoJr robot jumping.</em></p>
+
+<p><img src="../images/poppy_mini_familly.png" alt="Robots designed by code." /><br />
+<em>Robots designed by code.</em></p>
+
+<h4 id="ergojr-in-the-browser">ErgoJr in the Browser</h4>
+<p>Using <a href="https://threejs.org/">three.js</a>, I developed an ErgoJr model that can be interacted with directly in the browser. This enables students to play and test code on the robot without having access to a physical robot. Thanks to Pierre Rouanet, the web simulator can be controlled with exactly the same code library as the physical robot.</p>
+
+<iframe class="elementor-video" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/Hl0-hBIGIPw"></iframe>
+<p><em>Demonstration of the control of ErgoJr in the browser via Python.</em></p>
+
+<iframe class="elementor-video" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/T9FwFOBoz7Y"></iframe>
+<p><em>Pierre Rouanet demonstrates the link between the physical and the simulated robot.</em></p>
+
+<p>For more information:</p>
+<ul>
+  <li><a href="http://simu.poppy-project.org/poppy-ergo-jr/">Demo</a></li>
+  <li><a href="https://docs.poppy-project.org/en/getting-started/visualize.html#using-our-web-visualizer">Getting Started</a></li>
+  <li><a href="http://simu.poppy-project.org/">Website</a></li>
+  <li><a href="https://forum.poppy-project.org/t/ergojr-in-the-browser/1609">Forum Thread</a></li>
+</ul>
+
+<h4 id="soft-robots">Soft Robots</h4>
+<p>I developed a method to integrate flexible silicon parts that can be easily designed and built at a very low cost (&gt;1$). I designed a soft starfish robot as a proof of principle.</p>
+
+<p><img src="../images/poppy_soft.gif" alt="A robot with flexible parts." /><br />
+<em>A robot with flexible parts.</em></p>
+
+<p>For more information:</p>
+<ul>
+  <li><a href="https://github.com/poppy-project/poppy-soft-starfish">Github soft starfish</a></li>
+  <li><a href="https://github.com/poppy-project/poppy-soft-connector">Github soft connector</a></li>
+  <li><a href="https://forum.poppy-project.org/t/poppy-soft-connector/2152">Forum Thread</a></li>
+</ul>
+
+<h3 id="laboratory-robotics">Laboratory Robotics</h3>
+
+<p>Between 2015 and 2018, I led a team of interdisciplinary researchers in a Chemistry lab on the <a href="https://jgrizou.github.io/website/projects/chemobot">digitization of Chemistry</a>. As a trained roboticist, I developed tools to help less experienced programmers build automated laboratory devices and robots. Below are some tools I developed, with more available on the <a href="https://github.com/croningp">Cronin group Github page</a>.</p>
+
+<h4 id="commanduino--arduino-control-in-python">Commanduino – Arduino Control in Python</h4>
+<p>The <a href="https://github.com/croningp/commanduino">Commanduino</a> library is a Python library used to communicate with Arduino devices via Python, as opposed to hardcoding behavior onto the Arduino itself.</p>
+
+<p>I introduced modularity in the design of Arduino-based robots. To add a new device (motor, servo, sensor), one needs to add a few lines of code on the Arduino board. This device then becomes controllable via Python on a connected computer. The following diagram shows the architecture of Commanduino, highlighting its communication layers.</p>
+
+<p><img src="../images/cronin_arduino.png" alt="Architecture of the Commanduino layers of communication." /><br />
+<em>Architecture of the Commanduino layers of communication.</em></p>
+
+<p>With Commanduino, an Arduino main file becomes simple to write, focusing only on the device you want to control. For example, registering a servo on pin 9:</p>
+
+<p><img src="../images/cronin_code_arduino.png" alt="Code on the Arduino side." /><br />
+<em>Code on the Arduino side.</em></p>
+
+<p>You can then plug the board into a computer and use the following code to control and read from the servo:</p>
+
+<p><img src="../images/cronin_code_python.png" alt="Code on the Python side." /><br />
+<em>Code on the Python side.</em></p>
+<ul>
+  <li><a href="https://forum.poppy-project.org/">Poppy Forum</a></li>
+  <li><a href="https://github.com/poppy-project">GitHub</a></li>
+</ul>
+
+<p>Commanduino makes quick iterative development possible using Arduino and Python, even for beginners. It is particularly useful when designing new robots without well-defined specifications, as it requires adapting on the fly to the problems you encounter.</p>
+
+<p>However, that amount of user-side readability on Arduino code required a fairly complex code architecture, and adding new devices is a job for advanced programmers.</p>
+
+<p><strong>Libraries:</strong><br />
+<a href="https://github.com/croningp/commanduino">Commanduino</a><br />
+<a href="https://github.com/croningp/Arduino-CommandTools">Arduino CommandTools</a><br />
+<a href="https://github.com/croningp/Arduino-CommandHandler">Arduino CommandHandler</a><br />
+<a href="https://github.com/ShinRa26">Graham Keenan</a> wrote the documentation and coded additional devices.</p>
+
+<hr />
+
+<h2 id="pump-control">Pump Control</h2>
+
+<p>I developed <code class="language-plaintext highlighter-rouge">pycont</code>, a Python library to control Tricontinent C3000 pumps. It is meant to be easy to use and transparent so that when reading your program, you can actually know what is going on.<br />
+<a href="https://github.com/ShinRa26">Graham Keenan</a> wrote the documentation. More details on <a href="https://github.com/croningp/pycont">GitHub</a>.</p>
+
+<hr />
+
+<h2 id="modular-syringe-driver">Modular Syringe Driver</h2>
+
+<p>I designed a small linear actuator with interchangeable tools that is very handy for developing custom laboratory robots. The appeal of this device is its modularity, as many different additions can be designed and printed.<br />
+<a href="https://github.com/ShinRa26">Graham Keenan</a> wrote the documentation. More details on <a href="https://github.com/croningp/ModularSyringeDriver">GitHub</a> and <a href="https://cad.onshape.com/documents/56ab4447e4b0dff6d869c7ac/w/10403a3c4431f66501924e81/e/ad868b310df8ef7bb56f2516">OnShape</a>.</p>
+
+<p><img src="../images/cronin_syringe.png" alt="3D design of the modular actuator" /><br />
+<em>3D design of the modular actuator with interchangeable tools.</em></p>
+
+<p><img src="../images/cronin_syringe_real.png" alt="Modular syringe fully assembled" /><br />
+<em>A modular syringe fully assembled.</em></p>
+
+<hr />
+
+<h2 id="droplet-tracking">Droplet Tracking</h2>
+
+<p>A collection of software tools to handle various video-related tasks, including recording a video, setting webcam parameters, and tracking moving droplets in a petri dish. More details on <a href="https://github.com/croningp/chemobot_tools">GitHub</a>.</p>
+
+<hr />
+
+<h2 id="dropfactory-robot">Dropfactory Robot</h2>
+
+<p>The <a href="https://github.com/croningp/dropfactory">Dropfactory robot</a> is a great example of what can be made when combining the above tools. The design and code are entirely open source, see <a href="https://github.com/croningp/dropfactory">GitHub</a>.</p>
+
+<p><img src="../images/cronin_dropfactory.gif" alt="Open source laboratory robot" /><br />
+<em>Open source laboratory robot I developed.</em></p>
+
+<p>I developed this robot to undertake <a href="https://jgrizou.github.io/website/projects/chemobot#dropfactory">research on the efficiency of curious algorithms on the exploration of chemical systems</a>. Dropfactory can perform 300 droplet experiments a day in full autonomy (each experiment requires recording of 1m30s). Compared to previous robots, this is a 6-fold improvement and a major leap in reliability. This robot performed more than 20k droplet experiments while I worked in the Cronin group and routinely functioned for 12 hours per day.</p>
+
+<hr />
+
+<h1 id="startup--pollen-robotics-and-luos">Startup – Pollen Robotics and Luos</h1>
+
+<p>Together with Matthieu Lapeyre, Pierre Rouanet, and Nicolas Rabault, we co-founded <a href="http://pollen-robotics.com/">Pollen Robotics</a>.</p>
+
+<p><img src="../images/pollen_team.jpg" alt="Co-founders of Pollen Robotics" /><br />
+<em>The co-founders. From left to right: Pierre Rouanet, Jonathan Grizou, Nicolas Rabault, Matthieu Lapeyre.</em></p>
+
+<p>Our objective was to make robotics more accessible by commercializing our tools for the quick creation of robots, specifically a technology for modular robotics comprising a communication bus called Robus. Below was our attempt to explain that technology.</p>
+
+<p><a href="https://www.youtube.com/embed/EwVGfkn3y_k"><img src="https://img.youtube.com/vi/EwVGfkn3y_k/0.jpg" alt="Luos pitch to YC Startup School" /></a><br />
+<em>Luos pitch to YC Startup School.</em></p>
+
+<p><a href="https://www.youtube.com/embed/ula16zdZgDk"><img src="https://img.youtube.com/vi/ula16zdZgDk/0.jpg" alt="Luos technology principle and example" /></a><br />
+<em>Luos technology principle and example.</em></p>
+
+<p>While at Pollen Robotics, we developed a variety of robots to showcase the technology’s versatility. Among them were a human-sized robotic arm and a small dynamic quadruped robot.</p>
+
+<p><a href="https://www.youtube.com/embed/L4fB0rVJI8g"><img src="https://img.youtube.com/vi/L4fB0rVJI8g/0.jpg" alt="Reachy – Human size robotic arm" /></a><br />
+<em>Reachy – Human size robotic arm.</em></p>
+
+<p><a href="https://www.youtube.com/embed/wQul6ANDb80"><img src="https://img.youtube.com/vi/wQul6ANDb80/0.jpg" alt="Doggy – Robotic gaming platform" /></a><br />
+<em>Doggy – Robotic gaming platform.</em></p>
+
+<p>The team also designed a very cheap (&lt; $2 in parts) educational robot in collaboration with the <a href="https://editions.nathan.fr/">Nathan</a> French publishing house. The resulting product is called <a href="http://robotlabo.nathan.fr/">Robot Labo</a> and was commercialized in physical shops all over France for Christmas 2018.</p>
+
+<p><a href="https://www.youtube.com/embed/fZtLp7vPts0"><img src="https://img.youtube.com/vi/fZtLp7vPts0/0.jpg" alt="Robot Labo promotional video" /></a><br />
+<em>Promotional video of Robot Labo.</em></p>
+
+<p><img src="../images/pollen_robot_labo-294x300.png" alt="Packaging of Robot Labo" /><br />
+<em>Packaging of Robot Labo.</em></p>
+
+<p>I voluntarily departed from Pollen Robotics in 2018 following a pivot. This pivot led to a split in the activities and the creation of a second startup, <a href="https://www.luos.io">Luos Robotics</a>. At the time of this writing, <a href="https://www.pollen-robotics.com/">Pollen Robotics</a> is a robotic design studio that starts from an idea to develop a functioning product, while <a href="https://www.luos.io/">Luos Robotics</a> aims to commercialize the Robus modular technology. We were awarded a <a href="https://ec.europa.eu/programmes/horizon2020/en/h2020-section/sme-instrument">European SME Instrument H2020 grant</a> for this project.</p>
+
+<p><img src="../images/pollen_logo.png" alt="Logo of Pollen Robotics" /><br />
+<em>Logo of Pollen Robotics.</em></p>
+
+<p><img src="../images/luos_logo-300x234.png" alt="Logo of Luos Robotics" /><br />
+<em>Logo of Luos Robotics.</em></p>
+
+<hr />
+
+<h1 id="personal-projects">Personal Projects</h1>
+
+<p>Personal projects are listed on the project page, under the <a href="https://jgrizou.com/website/projects/#stuff">“Stuff I built”</a> section.</p>
+
+<hr />
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+<!-- <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/academic_website/projects/open-source-robotics" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/academic_website/projects/open-source-robotics" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/academic_website/projects/open-source-robotics" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section> -->
+
+
+      
+
+<!-- 
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/academic_website/projects/chemobot" class="pagination--pager" title="Chemobot
+">Previous</a>
+    
+    
+      <a href="http://localhost:4000/academic_website/portfolio/portfolio-1/" class="pagination--pager" title="Main Projects
+">Next</a>
+    
+  </nav>
+ -->
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <script src="http://localhost:4000/academic_website/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

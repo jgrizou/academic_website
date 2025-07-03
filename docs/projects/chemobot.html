@@ -1,0 +1,684 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Chemobot - Jonathan Grizou</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Jonathan Grizou">
+<meta property="og:title" content="Chemobot">
+
+
+
+
+  <meta property="og:description" name="description" content="Applying Machine Learning to the Exploration of Physicochemical Systems">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2019-01-01T00:00:00+00:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Jonathan Grizou",
+      "url" : null,
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Jonathan Grizou Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Jonathan Grizou</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://www.grizai.com/">Consulting</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/projects/">Projects</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://scholar.google.fr/citations?hl=en&user=Fej-hGQAAAAJ&view_op=list_works&sortby=pubdate">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://blog.jgrizou.com/essays/">Essays</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/teaching/">Teaching</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="/images/profile.png" class="author__avatar" alt="Jonathan Grizou">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Jonathan Grizou</h3>
+    
+    <p class="author__bio">I offer consulting services in Data Science, Artificial Intelligence, Machine Learning and Robotics with a focus on tech start-ups.</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Glasgow, UK</li>
+      
+      
+      
+      
+        <li><a href="mailto:jonathan.grizou@grizai.com"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+            
+      
+        <li><a href="https://scholar.google.fr/citations?hl=en&user=Fej-hGQAAAAJ&view_op=list_works&sortby=pubdate"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+      
+      
+      
+      
+                              
+      
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+            
+            
+      
+        <li><a href="https://github.com/jgrizou"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+      
+        <li><a href="https://www.linkedin.com/in/jonathangrizou"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Chemobot">
+    <meta itemprop="description" content="Applying Machine Learning to the Exploration of Physicochemical Systems">
+    <meta itemprop="datePublished" content="January 01, 2019">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Chemobot
+</h1>
+          
+        
+        
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Published:</strong> <time datetime="2019-01-01T00:00:00+00:00">January 01, 2019</time></p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <h1 id="applying-machine-learning-to-the-exploration-of-physicochemical-systems">Applying Machine Learning to the Exploration of Physicochemical Systems</h1>
+
+<p><em>Last update: January 2019</em></p>
+
+<p><em>How can AI help make discoveries on the bench in a chemistry lab? How can chemical systems help devise better AI algorithms?</em><br />
+I explored those questions with the team I led in the <a href="http://www.chem.gla.ac.uk/cronin/">Cronin Group</a>. The group’s cutting-edge knowledge combined with my experience from the developmental sciences allowed us to bring innovative ideas to the field, including the use of active learning, curiosity-driven exploration, and human comparative studies.</p>
+
+<h2 id="videos">Videos</h2>
+
+<h3 id="droplets-compilation">Droplets Compilation</h3>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/RC_nc0P_crc" frameborder="0" allowfullscreen=""></iframe>
+<p><em>Compilation of droplet behaviors – one of the systems we studied.</em></p>
+
+<h3 id="droplet-robots-compilation">Droplet Robots Compilation</h3>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/_pAtu3atYN8" frameborder="0" allowfullscreen=""></iframe>
+<p><em>Compilation of robotic platforms designed by the team.</em></p>
+
+<hr />
+
+<h2 id="content">Content</h2>
+
+<ul>
+  <li><a href="#approach">Approach</a></li>
+  <li><a href="#team">Team</a></li>
+  <li><a href="#projects">Projects</a>
+    <ul>
+      <li><a href="#dropfactory">Curiosity-driven exploration on a laboratory robot</a></li>
+      <li><a href="#human-vs-robots">Active learning in crystallization experiments</a></li>
+      <li><a href="#nanobot">Hierarchical exploration of gold nanoparticles</a></li>
+      <li><a href="#flowbot">Physical environment as an experiment variable</a></li>
+      <li><a href="#surfbot">AI to better understand self-propelled droplets</a></li>
+      <li><a href="#dropbot">Black-box optimization of self-propelled droplets</a></li>
+    </ul>
+  </li>
+  <li><a href="#additional-resources">Resources</a></li>
+  <li><a href="#personal-notes">Personal Notes</a></li>
+</ul>
+
+<hr />
+
+<h2 id="approach">Approach</h2>
+
+<p>I grew frustrated that most AI research was done on simulated environments. I wanted to see this technology used in the real world on systems we do not ourselves design nor understand – that is, not even on robots.</p>
+
+<p>The physical sciences seem fitting. In physics, chemistry, or biology, an important part of everyday research is to understand yet unknown systems. Scientists devise experiments and build instruments to query these systems with the aim of modeling, and later predicting, their evolution.</p>
+
+<p>This is in sharp contrast with simulation, big data, and controlled robotic problems AI algorithms are designed on and for.<br />
+[1] If we ought to bring AI advances to experimental research in labs, we need to drop the habit of thinking that experiments are free, unlimited, and well-defined.</p>
+
+<h3 id="connecting-developmental-robotics-and-physical-sciences">Connecting Developmental Robotics and Physical Sciences</h3>
+
+<p>A subfield of robotics, called <a href="https://en.wikipedia.org/wiki/Developmental_robotics">developmental robotics</a>, imposes similar constraints. Their aim is to build a robot that can learn like a child. This opened an ocean of research directions to bring principles from developmental robotics into the physical sciences.</p>
+
+<hr />
+
+<h2 id="team">Team</h2>
+
+<p><img src="../images/team.png" alt="The Chemobot Team" /><br />
+<em>The Chemobot team from 2015–2018 within the Cronin group, University of Glasgow. Missing: Kevin Donkers.</em></p>
+
+<p>The team was composed of Lee Cronin (PI), Jonathan Grizou (me), Abhishek Sharma, Jan Szymanski, James W. Taylor, Juan Manuel Parrilla Gutierrez, Laurie J. Points, Vasilios Duros, Sergio Martin Marti, Graham Keenan, and Kevin Donkers. A mix of chemists, computer scientists, and material scientists.</p>
+
+<hr />
+
+<h2 id="projects">Projects</h2>
+
+<h3 id="curiosity-driven-exploration-of-oil-in-water-droplets">Curiosity-Driven Exploration of Oil-in-Water Droplets</h3>
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/bY5OoRBJkf0" frameborder="0" allowfullscreen=""></iframe>
+<p>The <a href="https://github.com/croningp/dropfactory">Dropfactory robot</a> is able to perform, record, and clean 8 droplet experiments in parallel.</p>
+
+<p>By applying the CA-robot to the study of self-propelling multicomponent oil-in-water droplets, we observed an order of magnitude more variety of droplet behaviors than possible with a random parameter search given the same budget. We discovered a sudden and highly specific response of droplets to slight temperature changes.</p>
+
+<hr />
+
+<p><strong><a href="https://github.com/croningp">More information and tools</a></strong></p>
+
+<h2 id="summary-of-results">Summary of Results</h2>
+
+<p><img src="../images/dropfactory_result-768x600.png" alt="Summary of the results" /></p>
+
+<figcaption>
+Summary of the results. Left: (A) % of explored space. CA explored 3.3 times more than random. (B, C) Observations made by each method for each repeat; each scatter dot represents a single droplet experiment. CA (B) leads to a greater variety of observations than random (C). Right: Effect of temperature. (D) Number of experiments with a speed faster than 3 mms-1. A change of only ca. 4.4°C led to a significant difference in the observed droplet behaviours when using the CA (395 vs 93, p=0.005), which is not observed when using random (28 vs 19, p=0.22). This is confirmed by (E) and (F) which show the distribution of observation. The CA enabled the discovery of the temperature effect.
+</figcaption>
+
+<hr />
+
+<p>Once the temperature dependence was discovered, six modes of self-propelled droplet motion were identified and classified using a time-temperature phase diagram and probed using a variety of techniques including NMR, which allowed the design of a payload release system triggered by temperature. This work illustrates how target-free search can significantly increase the rate of unpredictable observations leading to new discoveries with potential applications in formulation chemistry.</p>
+
+<h3 id="video-effect-of-temperature-on-droplet-motion">Video: Effect of Temperature on Droplet Motion</h3>
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/80yAmBkzdmM?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;cc_load_policy=0&amp;autoplay=0" frameborder="0" allowfullscreen=""></iframe>
+
+<hr />
+
+<h2 id="resources">Resources</h2>
+
+<ol>
+  <li><strong>A curious formulation robot enables the discovery of a novel protocell behavior.</strong><br />
+Grizou, J., Points, L. J., Sharma, A. &amp; Cronin, L. (2020). <em>Science Advances</em>.<br />
+<a href="https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf">PDF</a> | <a href="https://doi.org/10.1126/sciadv.aay4237">DOI</a> | <a href="https://github.com/croningp/dropfactory">Robot Design</a> | <a href="https://github.com/croningp/dropfactory_exploration">Experiment Code</a> | <a href="https://github.com/croningp/dropfactory_analysis">Analysis Code</a> | <a href="https://jgrizou.github.io/website/projects/chemobot#dropfactory">Project</a></li>
+</ol>
+
+<hr />
+
+<h2 id="human-vs-robots">Human vs Robots</h2>
+
+<p><img src="../images/hvr_pom.png" alt="Automated platform in the lab" />
+<img src="../images/hvr_platform.png" alt="Experimental setup" /></p>
+
+<p>The discovery of new gigantic molecules formed by self-assembly and crystal growth is challenging as it combines two contingent events: the formation of a new molecule and its crystallization. We constructed an automated workflow that can probe both events and employed it for a new polyoxometalate cluster which has a trigonal-ring type architecture.</p>
+
+<h3 id="representation-of-methods">Representation of Methods</h3>
+
+<p><img src="../images/hvr_diagram.png" alt="Experimental method" /><br />
+Representation of the experimental method showing how the automated and bench work was done.</p>
+
+<p><img src="../images/hvr_method.png" alt="Schematic diagram" /><br />
+Schematic diagram of the exploration methods. All experiments are performed on a crystallization robotic platform.</p>
+
+<hr />
+
+<p>A critical constraint was that we could only perform 10 experiments per day. We ran the active learning in batches of 10 experiments, performing 10 iterations for a total of 100 experiments per method and repeat. This required 10 days and significant reagents to validate the approach for the first time. The results showed that the active learning algorithmic search increased the crystallization prediction accuracy to <strong>82.4 ± 0.7%</strong> compared to <strong>77.1 ± 0.9%</strong> from human experimenters given the same experimental budget.</p>
+
+<h3 id="results">Results</h3>
+
+<p><img src="../images/hvr_result.png" alt="Prediction Accuracy" /><br />
+Average for the crystallization prediction accuracy between the classes of crystals and non-crystals for the three methods, using a RandomForest classifier.</p>
+
+<hr />
+
+<h2 id="additional-resources">Additional Resources</h2>
+
+<ol>
+  <li>
+    <p><strong>Intuition-enabled Machine Learning beats the Competition when Joint Human-Robot Teams perform Inorganic Chemical Experiments.</strong><br />
+Duros, V., Grizou, J., Sharma, A., Mehr, S.H.M., et al. (2019). <em>Journal of Chemical Information and Modeling</em>.<br />
+<a href="https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00304">PDF</a> | <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00304">Journal</a> | <a href="https://jgrizou.github.io/website/projects/chemobot#human-vs-robots">Project</a></p>
+  </li>
+  <li>
+    <p><strong>Human vs Robots in the Discovery and Crystallization of Gigantic Polyoxometalates.</strong><br />
+Grizou, J., Duros, V., Xuan, W., et al.</p>
+  </li>
+</ol>
+
+<p>After several cycles and the application of a genetic algorithm (GA), the fitness factor at each stage increased every generation leading towards the desired outcome. Our system could synthesise recursively gold nanospheres, gold nanorods (AuNRs), and arrow-headed gold nanorods with high reproducibility.</p>
+
+<p><img src="../images/nano_result-768x653.png" alt="Gold Nanoparticles Evolution" />
+<em>Left: Evolution of the median fitness per generation. Middle: Comparison between UV-Vis spectrum of particles described in the literature and the best particles obtained with the robot. Right: TEM image of the particles that correspond to the UV-Vis spectrum shown.</em></p>
+
+<p>Our results show that the evolution of nanomaterials is possible in a fully automated fashion and has the potential to change the way AuNPs are studied and explored.</p>
+
+<h2 id="resources-1">Resources</h2>
+<ol>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.</strong> Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020). <em>Nature Communications.</em> <a href="https://www.nature.com/articles/s41467-020-16501-4.pdf">PDF</a></td>
+          <td><a href="https://doi.org/10.1038/s41467-020-16501-4">DOI</a></td>
+          <td><a href="https://jgrizou.github.io/website/projects/chemobot#nanobot">Project</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ol>
+
+<h3 id="physical-environment-as-an-experiment-variable">Physical environment as an experiment variable</h3>
+<p>Evolution via natural selection is governed by the persistence and propagation of living things in an environment. The environment is important since it contributes to shaping evolution. Although evolution has been widely studied in a variety of fields from biology to computer science, still little is known about the impact of environmental changes on an artificial chemical evolving system outside of computer simulations.</p>
+
+<p>We developed a fully automated 3D-printed chemorobotic fluidic system that is able to generate and select droplet protocells in real time while changing the surroundings where they undergo artificial evolution.</p>
+
+<p><img src="../images/flowbot_diagram-768x599.jpg" alt="Flowbot Diagram" />
+<em>Schematic describing the evolutionary process. In the first step, a computer generates random recipes using ratios of 1-octanol, octanoic acid, 1-pentanol, and diethyl phthalate. These oils are then mixed through a serpentine channel, and populations of five droplets are generated in the evolutionary arena. The droplet behaviours are then analysed and ranked using a fitness function. The best droplets are selected, and new droplet formulations were generated after “mutation” and “crossover” operations.</em></p>
+
+<p>Compared to our previous work, the use of a 3D-printed device enables us to change the physical environment in which the droplet population evolves. The 3D printed platform also innovates as no moving parts are required to initiate, run, and clean droplet experiments.</p>
+
+<p><img src="../images/flowbot_platform.jpg" alt="3D-Printed System" />
+<em>Schematic of the 3D-printed system. Chemical inputs are handled by pumps. Droplet mixtures are formed through a serpentine channel and pushed to form droplets into an evolutionary arena. A camera records the arena from above. Image processing algorithms are used to analyse and categorise the droplet behaviours.</em></p>
+
+<h3 id="videos-1">Videos</h3>
+<ul>
+  <li><a href="https://youtu.be/RzqkPU0Pa3Q">Trailer of the platform in action</a></li>
+  <li><a href="https://youtu.be/UJSlCrCaaAo">Droplet recipes evolving through a genetic algorithm in different arenas</a></li>
+</ul>
+
+<p>Using such 3D-printed devices, we were able to change the physical environment in which the droplet population evolves. We thus explicitly studied how the genotype is modulated through a programmable environment to express its phenotype, in contrast to the more studied genotype-to-phenotype direct approach.</p>
+
+<p>By successively evolving the droplets from one environment to another, we were able to observe disruption in their evolutionary trajectories, as well as adaptation of their genome.</p>
+
+<p><img src="../images/flowbot_result-768x337.png" alt="Environmental Change Results" />
+<em>Environmental change results. Fitness evolution over generation. The first 10 generations used an empty arena, the following 10 generations used an arena filled with pillars, and the last 10 generations used the arena generated using an L-system. The arena was swapped to the pillars environment between the 10th and 11th generation, inducing a drop in the fitness values, which forced the droplet to adapt and evolve again in the new environment. The arena was swapped to the L-system between generations 20 and 21, introducing no noticeable fitness changes.</em></p>
+
+<h2 id="resources-2">Resources</h2>
+
+<ol>
+  <li><strong>Adaptive artificial evolution of droplet protocells in a 3D-printed fluidic chemorobotic platform with configurable environments.</strong><br />
+Parrilla-Gutierrez, J. M., Tsuda, S., Grizou, J., Taylor, J., Henson, A., &amp; Cronin, L. (2017).<br />
+<em>Nature Communications, 8(1), 1144.</em><br />
+<a href="https://www.nature.com/articles/s41467-017-01161-8.pdf">PDF</a> | <a href="https://www.nature.com/articles/s41467-017-01161-8">Journal</a></li>
+</ol>
+
+<hr />
+
+<h3 id="ai-as-a-tool-to-understand-complex-systems">AI as a tool to understand complex systems</h3>
+
+<p>Exploring and understanding the emergence of complex behaviors is difficult even in “simple” chemical systems since the dynamics can rest on a knife edge between stability and instability.</p>
+
+<p>We study the dynamics of oil droplets in an aqueous environment using an automated platform equipped with artificial intelligence. Compared to previous work, we increased the number of experimental parameters and allowed the robot to choose both the concentration of oils in the droplets and the concentration of surfactants in the aqueous phase. Our aim was to identify more droplet behaviors and understand better the mechanisms behind them.</p>
+
+<hr />
+
+<h4 id="video-surfbot---platform">Video: Surfbot - Platform</h4>
+<p><a href="https://youtu.be/yp5018y_6tM"><img src="../images/surfbot_evospeed.png" alt="Surfbot - Platform" /></a></p>
+
+<hr />
+
+<h3 id="operation-of-the-platform">Operation of the Platform</h3>
+
+<p>To test the platform, we started by running evolutionary experiments and comparing them to our previous work.</p>
+
+<hr />
+
+<h4 id="comparison-of-median-fitness-values">Comparison of Median Fitness Values</h4>
+<p><img src="../images/surfbot_evospeed.png" alt="Comparison of median fitness values" /><br />
+<em>Comparison of median fitness values per generation between the oil-only, aqueous-only, and aqueous-oil optimizations.</em></p>
+
+<hr />
+
+<h4 id="video-surfbot---highspeed">Video: Surfbot - Highspeed</h4>
+<p><a href="https://youtu.be/dO-1Jy1e76g"><img src="../images/surfbot_diagram-768x206.jpg" alt="Surfbot - Highspeed" /></a><br />
+<em>Comparison of speed achieved with the oil-only, aqueous-only, and aqueous-oil optimizations.</em></p>
+
+<hr />
+
+<p>By opening the parameter space to the chemical environment of the droplets, we were able to generate faster-moving droplets. The recipes and data generated from this process were then used for physicochemical analysis, where traditional chemical analysis, machine learning, and archetypal droplet experiments are used to study the behavioral mechanisms and to predict droplet behaviors.</p>
+
+<hr />
+
+<p><img src="../images/surfbot_diagram-768x206.jpg" alt="Robotic exploration and AI" /><br />
+<em>This work combined robotic exploration and AI to identify behaviors with traditional physical chemical analysis augmented with AI.</em></p>
+
+<hr />
+
+<p>The data acquired were used to build predictive models of the system, of which no physical model, or only inaccurate models, were available.</p>
+
+<hr />
+
+<p><img src="../images/surfbot_svm-768x245.jpg" alt="Physical property plots" /><br />
+<em>Plots of the predicted density (Left), dynamic viscosity (Center), and surface tension (Right) against their measured values. Blue points are predicted using weighted mean (density) and Arrhenius-based method (viscosity), while red values are predicted using an SVM regressor.</em></p>
+
+<hr />
+
+<p>Physical properties such as viscosity, surface tension, and density are shown to be related to behaviors, as well as to droplet behavioral niches, such as collective swarming. By dying droplets with phenolphthalein, we could observe the internal dynamics within the droplets and depending on their composition. For example, pentanol goes very pink, has rapid flows, and dissolves, while DEP only goes pink at the interface.</p>
+
+<hr />
+
+<h4 id="video-surfbot---dye">Video: Surfbot - Dye</h4>
+<p><a href="https://youtu.be/-fqDohfLYTA"><img src="../images/surfbot_svm-768x245.jpg" alt="Dye experiments" /></a><br />
+<em>Dye experiments showing the complex flow of chemicals inside the droplets.</em></p>
+
+<hr />
+
+<h2 id="resources-3">Resources</h2>
+
+<ol>
+  <li><strong>Artificial intelligence exploration of unstable protocells leads to predictable properties and discovery of collective behaviorAdaptive artificial evolution of droplet protocells in a 3D-printed fluidic chemorobotic platform with configurable environments.</strong><br />
+Laurie J. Points, James Ward Taylor, Jonathan Grizou, Kevin Donkers, and Leroy Cronin (2018).<br />
+<em>PNAS, 115(5), 885-890.</em><br />
+<a href="https://www.pnas.org/doi/epdf/10.1073/pnas.1711089115">PDF</a> | <a href="https://doi.org/10.1073/pnas.1711089115">Journal</a></li>
+</ol>
+
+<hr />
+
+<h3 id="black-box-optimization-of-oil-in-water-droplets">Black Box Optimization of Oil-in-Water Droplets</h3>
+
+<p>This work focuses on the optimization of the dynamic properties of droplets on a robotic platform. It was completed before I joined the Cronin group and made me realize it became possible to apply a range of new exploration methods freshly developed in computer science research groups directly on physical systems in the lab.</p>
+
+<p>They presented a liquid-handling robot built with the aim of investigating the properties of oil droplets as a function of composition via an automated evolutionary process. The robot makes the droplets by mixing four different compounds in different ratios and placing them in a Petri dish, after which they are recorded using a camera and the behavior of the droplets is analyzed using image recognition software to give a fitness value.</p>
+
+<hr />
+
+<h4 id="video-robotic-exploration-of-droplets">Video: Robotic Exploration of Droplets</h4>
+<p><a href="https://youtu.be/JSEZdo29rc8"><img src="../images/surfbot_diagram-768x206.jpg" alt="Robotic exploration of droplets" /></a></p>
+
+<p>The first droplet robot made in the Cronin group.</p>
+
+<p>In separate experiments, the fitness function discriminates based on movement, division and vibration over 21 cycles, giving successive fitness increases. Analysis and theoretical modelling of the data yields fitness landscapes analogous to the genotype–phenotype correlations found in biological evolution.</p>
+
+<p><img src="../images/dropbot_result-768x445.jpg" alt="Image" /></p>
+
+<h3 id="resources-4">Resources</h3>
+
+<p><strong>Evolution of oil droplets in a chemorobotic platform.</strong> Gutierrez, J. M. P., Hinkley, T., Taylor, J. W., Yanev, K., &amp; Cronin, L. (2014). <em>Nature Communications, 5, 5571.</em> <a href="https://www.nature.com/articles/ncomms6571.pdf">PDF</a> <a href="https://www.nature.com/articles/ncomms6571">Journal</a></p>
+
+<h2 id="resources-5">Resources</h2>
+
+<h3 id="workshop">Workshop</h3>
+<p>In 2017, we organized a <a href="https://croningp.github.io/tutorial_icdl_epirob_2017/">workshop</a> providing an extensive overview of this research. <a href="https://croningp.github.io/tutorial_icdl_epirob_2017/tutorial_proposal_final.pdf">PDF</a> <a href="https://github.com/croningp/tutorial_icdl_epirob_2017/releases/tag/slides">Slides</a> <a href="https://croningp.github.io/tutorial_icdl_epirob_2017/">Website</a></p>
+
+<h3 id="code-and-tools">Code and tools</h3>
+<p>We have developed a collection of software and hardware tools that has been made open source to help further research in this area. These tools are described on the <a href="https://jgrizou.github.io/website/projects/open_robotics/#laboratory-robotics">open robotics project page</a> and available on the <a href="https://github.com/croningp">Cronin group GitHub account</a>.</p>
+
+<h3 id="publications">Publications</h3>
+
+<ol>
+  <li><strong>A curious formulation robot enables the discovery of a novel protocell behavior.</strong> Grizou, J., Points, L. J., Sharma, A. &amp; Cronin, L. (2020). <em>Science Advances.</em> <a href="https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf">PDF</a> <a href="https://doi.org/10.1126/sciadv.aay4237">DOI</a> <a href="https://github.com/croningp/dropfactory">Robot Design</a> <a href="https://github.com/croningp/dropfactory_exploration">Experiment Code</a> <a href="https://github.com/croningp/dropfactory_analysis">Analysis Code</a> <a href="https://jgrizou.github.io/website/projects/chemobot#dropfactory">Project</a></li>
+  <li><strong>A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.</strong> Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020). <em>Nature Communications.</em> <a href="https://www.nature.com/articles/s41467-020-16501-4.pdf">PDF</a> <a href="https://doi.org/10.1038/s41467-020-16501-4">DOI</a> <a href="https://jgrizou.github.io/website/projects/chemobot#nanobot">Project</a></li>
+  <li><strong>Intuition-enabled Machine Learning beats the Competition when Joint Human-Robot Teams perform Inorganic Chemical Experiments.</strong> Duros, V., Grizou, J., Sharma, A., Mehr, S.H.M., Bubliauskas, A., Frei, P., Miras, H.N. and Cronin, L. (2019). <em>Journal of Chemical Information and Modeling.</em> <a href="https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00304">PDF</a> <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00304">Journal</a> <a href="https://jgrizou.github.io/website/projects/chemobot#human-vs-robots">Project</a></li>
+  <li><strong>Artificial intelligence exploration of unstable protocells leads to predictable properties and discovery of collective behavior.</strong> Points, L. J., Taylor, J. W., Grizou, J., Donkers, K., &amp; Cronin, L. (2018). <em>PNAS – Proceedings of the National Academy of Sciences, 201711089.</em> <a href="https://www.pnas.org/content/pnas/early/2018/01/09/1711089115.full.pdf">PDF</a> <a href="https://www.pnas.org/content/115/5/885.short">Journal</a></li>
+  <li><strong>Adaptive artificial evolution of droplet protocells in a 3D-printed fluidic chemorobotic platform with configurable environments.</strong> Parrilla-Gutierrez, J. M., Tsuda, S., Grizou, J., Taylor, J., Henson, A., &amp; Cronin, L. (2017). <em>Nature Communications, 8(1), 1144.</em> <a href="https://www.nature.com/articles/s41467-017-01161-8.pdf">PDF</a> <a href="https://www.nature.com/articles/s41467-017-01161-8">Journal</a></li>
+  <li><strong>The evolution of active droplets in chemorobotic platforms.</strong> Points, L. J., Grizou, J., Gutierrez, J. M. P., Taylor, J. W., &amp; Cronin, L. (2017). <em>Artificial Life Conference Proceedings 14.</em> <a href="https://www.mitpressjournals.org/doi/pdfplus/10.1162/isal_a_059">PDF</a></li>
+  <li><strong>Human vs Robots in the Discovery and Crystallization of Gigantic Polyoxometalates.</strong> Grizou, J., Duros, V., Xuan, W., Hosni, Z., Long, D.-L., Miras H., Cronin L. (2017). <em>Angewandte Chemie 129.36: 10955-10960.</em> <a href="https://core.ac.uk/download/pdf/84148587.pdf">PDF</a> <a href="https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fanie.201705721&amp;file=anie201705721-sup-0001-misc_information.pdf">SI</a> <a href="https://github.com/croningp/crystal_active_learning">Code</a> <a href="http://dx.doi.org/10.1002/anie.201705721">Journal</a></li>
+  <li><strong>Developmental robotics in a chemistry lab.</strong> Grizou, J., Points L.J., Cronin, L. (2017). <em>Development and Learning and Epigenetic Robotics (ICDL-Epirob), 2017 Joint IEEE International Conferences on.</em> <a href="https://croningp.github.io/tutorial_icdl_epirob_2017/tutorial_proposal_final.pdf">PDF</a> <a href="https://github.com/croningp/tutorial_icdl_epirob_2017/releases/tag/slides">Slides</a> <a href="https://croningp.github.io/tutorial_icdl_epirob_2017/">Website</a></li>
+  <li><strong>Evolution of oil droplets in a chemorobotic platform.</strong> Gutierrez, J. M. P., Hinkley, T., Taylor, J. W., Yanev, K., &amp; Cronin, L. (2014). <em>Nature Communications, 5, 5571.</em> <a href="https://www.nature.com/articles/ncomms6571.pdf">PDF</a> <a href="https://www.nature.com/articles/ncomms6571">Journal</a></li>
+</ol>
+
+<h2 id="personal-notes">Personal Notes</h2>
+
+<p>The above work – done between 2015 and 2018 – is the application of ideas from a small subfield of machine learning and robotics, called <a href="https://en.wikipedia.org/wiki/Developmental_robotics">developmental robotics</a> (see my <a href="https://flowers.inria.fr/">PhD lab</a>), to an emerging field at the intersection of robotics, AI, and chemistry.</p>
+
+<p>I believe the projects we showcased provide a good window into future applications of AI and robotics in formulation sciences. More specifically in R&amp;D departments to help find new formulations for consumer goods and medical treatments, under the ever-evolving constraints from law enforcement (forbidden compounds, environment preservation), resource exhaustion, and budget optimization. The research presented above can significantly reduce the time and resources needed for the development of new products. Especially useful will be machines that can explore rather than optimize and collaborate with humans rather than replace them.</p>
+
+<p>I also believe that constraints from working on physical systems in the labs can be beneficial to the field of AI. When the only solution to querying data is to perform time-consuming and costly experiments, it forces AI practitioners to redefine their working methodology and might change the focus of what matters when designing new algorithms.</p>
+
+<p>I am eager to see this research applied outside the lab. Do not hesitate to get in touch to share ideas or discuss potential projects.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<p><a href="https://jgrizou.com/projects/chemobot/#1fn">1</a>: There are good reasons for that, convenience and speed for fundamental research is one, but also because a lot of problems worth solving can be captured adequately by data and simulation. My point focuses on hands-on experiments in laboratories.</p>
+
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+<!-- <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=/projects/chemobot" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=/projects/chemobot" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=/projects/chemobot" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section> -->
+
+
+      
+
+<!-- 
+  <nav class="pagination">
+    
+      <a href="/projects/thesis" class="pagination--pager" title="PhD Thesis
+">Previous</a>
+    
+    
+      <a href="/projects/open-source-robotics" class="pagination--pager" title="Open Source Robotics
+">Next</a>
+    
+  </nav>
+ -->
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
