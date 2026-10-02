@@ -25,12 +25,7 @@ main:
     external: true
 
   - title: "Essays"
-    url: https://blog.jgrizou.com/essays/
-    weight: 5
-    external: true
-    
-  - title: "Teaching"
-    url: /teaching/
+    url: /essays/
 
   # - title: "Portfolio"
   #  url: /portfolio/

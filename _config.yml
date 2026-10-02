@@ -24,10 +24,10 @@ author:
   avatar           : "profile.png"
   name             : "Jonathan Grizou"
   pronouns         : # example: "she/her"  
-  bio              : "I offer consulting services in Data Science, Artificial Intelligence, Machine Learning and Robotics with a focus on tech start-ups."
+  bio              : "I run fractional Data Science, AI, and Machine Learning consulting for product teams, start-ups, and SMEs, helping them make the right technical calls before they get expensive."
   location         : "Glasgow, UK"
   employer         : # "University Of Glasgow"
-  uri              : # URL
+  uri              : "https://www.grizai.com"
   email            : "jonathan.grizou@grizai.com" 
 
   # Academic websites
@@ -238,7 +238,8 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+      related: false
+      permalink: /essays/:title/
   # _pages
   - scope:
       path: ""

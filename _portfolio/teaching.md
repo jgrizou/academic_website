@@ -1,8 +1,11 @@
 ---
-layout: archive
 title: "Teaching"
-permalink: /teaching/
-author_profile: true
+collection: projects
+type: "Project"
+permalink: /projects/teaching
+date: 2019-01-01
+redirect_from:
+  - /teaching/
 ---
 
 <h3>University courses</h3>
@@ -26,6 +29,7 @@ author_profile: true
     <li><a href="https://jgrizou.com/teaching/pancakes">Teaching machine learning with pancakes</a> (2019)</li>
 </ul>
 
-<h3>Testimonials</h3>
-<p>See <a href="https://www.grizai.com/testimonials">grizai.com/testimonials</a> for testimonials on my teaching.</p>
-
+<h3>Essays</h3>
+<ul>
+    <li><a href="/essays/proud/">Grading for Proud</a></li>
+</ul>

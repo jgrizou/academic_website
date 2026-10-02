@@ -17,7 +17,7 @@ Last update: August 2019
 
 Below is a typical user interface. It is a code entering device. To enter a code, you look at the digit you want to type, if it is yellow you click on the yellow button. If it is grey, you click on the grey button. And the machine will find out the digit you have in mind by elimination.
 
-![Demo 1](../images/demo_1x2_2.gif)
+![Demo 1](/images/demo_1x2_2.gif)
 
 With two big colored buttons, this interface is designed to remove most user choices and channel you to behave in one standardized way. The aim is normative, it is more efficient and convenient for the designers if we all behave the same way, and it is also easier to predict your future actions. Think of apps like Instagram or Twitter, designers have done a great job at funneling our interaction there.
 
@@ -25,13 +25,13 @@ But let me show you another way to interact with digital devices.
 
 Below is the same interface but buttons have no predefined colors. You get to decide the buttons’ color in your mind, and the machine adapts to your preferences on the fly.
 
-![User 1 choice](../images/demo_3x3_fullpad_1.gif)  
+![User 1 choice](/images/demo_3x3_fullpad_1.gif)  
 **User 1 choice.**
 
-![User 2 choice](../images/demo_3x3_fullpad_2.gif)  
+![User 2 choice](/images/demo_3x3_fullpad_2.gif)  
 **User 2 choice.**
 
-![User 3 choice](../images/demo_3x3_fullpad_3.gif)  
+![User 3 choice](/images/demo_3x3_fullpad_3.gif)  
 **User 3 choice.**
 
 Notice how, once revealed, the color patterns on buttons are different for each user. This reflects their personal preferences. Each user typed in the same digit but they used the buttons differently to do so. Yet the machine was able to adapt, finding both what the user wanted to do (enter the digit 1) and how it was trying to do it (the colors associated to each button).
@@ -64,22 +64,22 @@ The challenge is divided into levels of increasing complexity, designed for a pr
 
 If you do not have time for the challenge, you can directly try any version below.
 
-![Demo 2](../images/demo_1x2_2-1.gif)  
+![Demo 2](/images/demo_1x2_2-1.gif)  
 [2 buttons](https://jgrizou.com/projects/vault/demo/1x2/)
 
-![Demo 3](../images/demo_3x3_fullpad_1.gif)  
+![Demo 3](/images/demo_3x3_fullpad_1.gif)  
 [9 buttons](https://jgrizou.com/projects/vault/demo/3x3/)
 
-![Demo 4](../images/demo_touch_1.gif)  
+![Demo 4](/images/demo_touch_1.gif)  
 [Touch](https://jgrizou.com/projects/vault/demo/1x2/)
 
-![Demo 5](../images/demo_draw_1.gif)  
+![Demo 5](/images/demo_draw_1.gif)  
 **Draw**
 
-![Demo 6](../images/demo_audio_1.gif)  
+![Demo 6](/images/demo_audio_1.gif)  
 [Speak](https://jgrizou.com/projects/vault/demo/1x2/)
 
-![Demo 7](../images/demo_keyboard_1.gif)  
+![Demo 7](/images/demo_keyboard_1.gif)  
 [Keyboard](https://jgrizou.com/projects/vault/demo/1x2/)
 
 For each version, a small explanatory text is provided along with a didactic video. If this is your first time, I recommend going through each version in order.
