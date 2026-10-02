@@ -12,7 +12,7 @@ title                    : "Jonathan Grizou"
 title_separator          : "-"
 name                     : &name "Jonathan Grizou"
 description              : &description "Fractional AI consultant"
-URL                      : https://jgrizou.com # the base hostname & protocol for your site
+url                      : https://jgrizou.com # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, empty for root domain
 repository               : "jgrizou/academic_website" # GitHub repository name for the site
 
@@ -154,6 +154,7 @@ analytics:
 # Reading Files
 include:
   - .htaccess
+  - .nojekyll
   - _pages
   - files
 exclude:
@@ -172,6 +173,7 @@ exclude:
   - config
   - Dockerfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -181,6 +183,15 @@ exclude:
   - package.json*
   - Rakefile
   - README
+  - README.md
+  - CONTRIBUTING.md
+  - _site
+  - _config.local.yml
+  - build.sh
+  - serve.sh
+  - markdown_generator
+  - talkmap.py
+  - talkmap.ipynb
   - tmp
   - vendor
 keep_files:

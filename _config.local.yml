@@ -1,0 +1,3 @@
+# Overrides for local preview only (used by serve.sh).
+# Empty url keeps links relative so the preview works on any host/port.
+url: ""

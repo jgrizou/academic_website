@@ -4,43 +4,33 @@ Personal academic website built with Jekyll, configured to deploy to jgrizou.com
 
 ## Local Development
 
-### Prerequisites
-- Ruby and Bundler installed
-- Run `bundle install` to install dependencies
+Requires either Ruby + Bundler, or Docker (the scripts fall back to Docker automatically).
 
-### Build Website
+### Preview locally
 ```bash
-# Compile website to docs/ folder
-bundle exec jekyll build
-
-# Serve locally for development (with auto-reload)
-bundle exec jekyll serve
-# Then visit http://localhost:4000
+./serve.sh          # http://localhost:4000, auto-reloads on edits
+./serve.sh 3005     # custom port
 ```
+Preview output goes to a temp folder; it never touches `docs/`.
+
+### Build for publishing
+```bash
+./build.sh
+```
+Runs `JEKYLL_ENV=production bundle exec jekyll build` into `docs/` and fails if any
+local URLs (e.g. `0.0.0.0:4000`) leak into the output. Do not use plain
+`jekyll build` / `jekyll serve` for publishing: development mode writes local
+URLs and unminified HTML into `docs/`.
 
 ### Configuration
-- Site configured for domain: `jgrizou.com`
-- Output directory: `docs/` folder
-- Main config: `_config.yml`
+- Site URL: `url` in `_config.yml` (`https://jgrizou.com`)
+- Local preview overrides: `_config.local.yml` (relative URLs)
+- Output directory: `docs/` (GitHub Pages serves `main` → `/docs`, custom domain via `docs/CNAME`)
 
 ### Deployment
-1. Run `bundle exec jekyll build` to compile
-2. Upload contents of `docs/` folder to web server
-3. Point domain to serve from uploaded files
-
-## Deployment Options
-
-### Option 1: GitHub Pages with Custom Domain (Recommended)
-1. Remove `destination: docs` from `_config.yml`
-2. Push to GitHub repository
-3. In GitHub Settings → Pages, set custom domain to `jgrizou.com`
-4. GitHub will automatically build and deploy
-
-### Option 2: Manual Deployment (Current Setup)
-1. Run `bundle exec jekyll build`
-2. Upload `docs/` folder contents to web server
+1. `./build.sh`
+2. Commit source changes together with `docs/` and push to `main`
 
 ## Notes
-- Fully compatible with GitHub Pages
-- Currently configured to build to `docs/` for manual deployment
-- All plugins are GitHub Pages whitelisted
+- `.nojekyll` (copied into `docs/` at build time) tells GitHub Pages to serve `docs/` as-is instead of re-running Jekyll on it.
+- All plugins are GitHub Pages whitelisted.
