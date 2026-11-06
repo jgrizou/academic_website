@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="row align-items-center justify-content-center">
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+      <a href="{{ site.baseurl }}/projects/vault/tuto/1x2/">
+        <!-- see https://github.com/jekyll/jekyll/issues/6159 for explanation -->
+        {% assign gif_1x2_url = site.baseurl | append: '/images/vault/tuto_1x2_1.gif' %}
+        {% include image.html src=gif_1x2_url sub='2 buttons' %}
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+      <a href="{{ site.baseurl }}/projects/vault/tuto/3x3/">
+        {% assign gif_3x3_url = site.baseurl | append: '/images/vault/tuto_3x3_1.gif' %}
+        {% include image.html src=gif_3x3_url sub='9 buttons' %}
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+      <a href="{{ site.baseurl }}/projects/vault/tuto/touch/">
+        {% assign gif_touch_url = site.baseurl | append: '/images/vault/tuto_touch_1.gif' %}
+        {% include image.html src=gif_touch_url sub='Touch' %}
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+      <a href="{{ site.baseurl }}/projects/vault/tuto/draw/">
+        {% assign gif_draw_url = site.baseurl | append: '/images/vault/tuto_draw_1.gif' %}
+        {% include image.html src=gif_draw_url sub='Draw' %}
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+      <a href="{{ site.baseurl }}/projects/vault/tuto/audio/">
+        {% assign gif_audio_url = site.baseurl | append: '/images/vault/tuto_audio_1.gif' %}
+        {% include image.html src=gif_audio_url sub='Speak' %}
+      </a>
+    </div>
+
+  </div>
+</div>

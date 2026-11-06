@@ -68,6 +68,8 @@ The team was composed of Lee Cronin (PI), Jonathan Grizou (me), Abhishek Sharma,
 
 ## Projects
 
+<a id="dropfactory"></a>
+
 ### Curiosity-Driven Exploration of Oil-in-Water Droplets
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/bY5OoRBJkf0" frameborder="0" allowfullscreen></iframe>  
@@ -101,7 +103,7 @@ Once the temperature dependence was discovered, six modes of self-propelled drop
 
 1. **A curious formulation robot enables the discovery of a novel protocell behavior.**  
    Grizou, J., Points, L. J., Sharma, A. & Cronin, L. (2020). *Science Advances*.  
-   [PDF](https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf) | [DOI](https://doi.org/10.1126/sciadv.aay4237) | [Robot Design](https://github.com/croningp/dropfactory) | [Experiment Code](https://github.com/croningp/dropfactory_exploration) | [Analysis Code](https://github.com/croningp/dropfactory_analysis) | [Project](https://jgrizou.github.io/website/projects/chemobot#dropfactory)
+   [PDF](https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf) | [DOI](https://doi.org/10.1126/sciadv.aay4237) | [Robot Design](https://github.com/croningp/dropfactory) | [Experiment Code](https://github.com/croningp/dropfactory_exploration) | [Analysis Code](https://github.com/croningp/dropfactory_analysis) | [Project](/projects/chemobot#dropfactory)
 
 ---
 
@@ -135,12 +137,14 @@ Average for the crystallization prediction accuracy between the classes of cryst
 
 1. **Intuition-enabled Machine Learning beats the Competition when Joint Human-Robot Teams perform Inorganic Chemical Experiments.**  
    Duros, V., Grizou, J., Sharma, A., Mehr, S.H.M., et al. (2019). *Journal of Chemical Information and Modeling*.  
-   [PDF](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00304) | [Journal](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00304) | [Project](https://jgrizou.github.io/website/projects/chemobot#human-vs-robots)
+   [PDF](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00304) | [Journal](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00304) | [Project](/projects/chemobot#human-vs-robots)
 
 2. **Human vs Robots in the Discovery and Crystallization of Gigantic Polyoxometalates.**  
    Grizou, J., Duros, V., Xuan, W., et al.
 
    
+
+<a id="nanobot"></a>
 
 After several cycles and the application of a genetic algorithm (GA), the fitness factor at each stage increased every generation leading towards the desired outcome. Our system could synthesise recursively gold nanospheres, gold nanorods (AuNRs), and arrow-headed gold nanorods with high reproducibility.
 
@@ -150,7 +154,7 @@ _Left: Evolution of the median fitness per generation. Middle: Comparison betwee
 Our results show that the evolution of nanomaterials is possible in a fully automated fashion and has the potential to change the way AuNPs are studied and explored.
 
 ## Resources
-1. **A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.** Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020). *Nature Communications.* [PDF](https://www.nature.com/articles/s41467-020-16501-4.pdf) | [DOI](https://doi.org/10.1038/s41467-020-16501-4) | [Project](https://jgrizou.github.io/website/projects/chemobot#nanobot)
+1. **A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.** Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020). *Nature Communications.* [PDF](https://www.nature.com/articles/s41467-020-16501-4.pdf) | [DOI](https://doi.org/10.1038/s41467-020-16501-4) | [Project](/projects/chemobot#nanobot)
 
 ### Physical environment as an experiment variable
 Evolution via natural selection is governed by the persistence and propagation of living things in an environment. The environment is important since it contributes to shaping evolution. Although evolution has been widely studied in a variety of fields from biology to computer science, still little is known about the impact of environmental changes on an artificial chemical evolving system outside of computer simulations.
@@ -282,13 +286,13 @@ They presented a liquid-handling robot built with the aim of investigating the p
 In 2017, we organized a [workshop](https://croningp.github.io/tutorial_icdl_epirob_2017/) providing an extensive overview of this research. [PDF](https://croningp.github.io/tutorial_icdl_epirob_2017/tutorial_proposal_final.pdf) [Slides](https://github.com/croningp/tutorial_icdl_epirob_2017/releases/tag/slides) [Website](https://croningp.github.io/tutorial_icdl_epirob_2017/)
 
 ### Code and tools
-We have developed a collection of software and hardware tools that has been made open source to help further research in this area. These tools are described on the [open robotics project page](https://jgrizou.github.io/website/projects/open_robotics/#laboratory-robotics) and available on the [Cronin group GitHub account](https://github.com/croningp).
+We have developed a collection of software and hardware tools that has been made open source to help further research in this area. These tools are described on the [open robotics project page](/projects/open-source-robotics#laboratory-robotics) and available on the [Cronin group GitHub account](https://github.com/croningp).
 
 ### Publications
 
-1. **A curious formulation robot enables the discovery of a novel protocell behavior.** Grizou, J., Points, L. J., Sharma, A. & Cronin, L. (2020). *Science Advances.* [PDF](https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf) [DOI](https://doi.org/10.1126/sciadv.aay4237) [Robot Design](https://github.com/croningp/dropfactory) [Experiment Code](https://github.com/croningp/dropfactory_exploration) [Analysis Code](https://github.com/croningp/dropfactory_analysis) [Project](https://jgrizou.github.io/website/projects/chemobot#dropfactory)
-2. **A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.** Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020). *Nature Communications.* [PDF](https://www.nature.com/articles/s41467-020-16501-4.pdf) [DOI](https://doi.org/10.1038/s41467-020-16501-4) [Project](https://jgrizou.github.io/website/projects/chemobot#nanobot)
-3. **Intuition-enabled Machine Learning beats the Competition when Joint Human-Robot Teams perform Inorganic Chemical Experiments.** Duros, V., Grizou, J., Sharma, A., Mehr, S.H.M., Bubliauskas, A., Frei, P., Miras, H.N. and Cronin, L. (2019). *Journal of Chemical Information and Modeling.* [PDF](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00304) [Journal](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00304) [Project](https://jgrizou.github.io/website/projects/chemobot#human-vs-robots)
+1. **A curious formulation robot enables the discovery of a novel protocell behavior.** Grizou, J., Points, L. J., Sharma, A. & Cronin, L. (2020). *Science Advances.* [PDF](https://advances.sciencemag.org/content/6/5/eaay4237.full.pdf) [DOI](https://doi.org/10.1126/sciadv.aay4237) [Robot Design](https://github.com/croningp/dropfactory) [Experiment Code](https://github.com/croningp/dropfactory_exploration) [Analysis Code](https://github.com/croningp/dropfactory_analysis) [Project](/projects/chemobot#dropfactory)
+2. **A Nanomaterials Discovery Robot for the Darwinian Evolution of Shape Programmable Gold Nanoparticles.** Keenan, G., Salley, D., Martín, S., Grizou, J., Sharma, A. and Cronin, L. (2020). *Nature Communications.* [PDF](https://www.nature.com/articles/s41467-020-16501-4.pdf) [DOI](https://doi.org/10.1038/s41467-020-16501-4) [Project](/projects/chemobot#nanobot)
+3. **Intuition-enabled Machine Learning beats the Competition when Joint Human-Robot Teams perform Inorganic Chemical Experiments.** Duros, V., Grizou, J., Sharma, A., Mehr, S.H.M., Bubliauskas, A., Frei, P., Miras, H.N. and Cronin, L. (2019). *Journal of Chemical Information and Modeling.* [PDF](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00304) [Journal](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00304) [Project](/projects/chemobot#human-vs-robots)
 4. **Artificial intelligence exploration of unstable protocells leads to predictable properties and discovery of collective behavior.** Points, L. J., Taylor, J. W., Grizou, J., Donkers, K., & Cronin, L. (2018). *PNAS – Proceedings of the National Academy of Sciences, 201711089.* [PDF](https://www.pnas.org/content/pnas/early/2018/01/09/1711089115.full.pdf) [Journal](https://www.pnas.org/content/115/5/885.short)
 5. **Adaptive artificial evolution of droplet protocells in a 3D-printed fluidic chemorobotic platform with configurable environments.** Parrilla-Gutierrez, J. M., Tsuda, S., Grizou, J., Taylor, J., Henson, A., & Cronin, L. (2017). *Nature Communications, 8(1), 1144.* [PDF](https://www.nature.com/articles/s41467-017-01161-8.pdf) [Journal](https://www.nature.com/articles/s41467-017-01161-8)
 6. **The evolution of active droplets in chemorobotic platforms.** Points, L. J., Grizou, J., Gutierrez, J. M. P., Taylor, J. W., & Cronin, L. (2017). *Artificial Life Conference Proceedings 14.* [PDF](https://www.mitpressjournals.org/doi/pdfplus/10.1162/isal_a_059)
@@ -308,5 +312,5 @@ I am eager to see this research applied outside the lab. Do not hesitate to get 
 
 ## Footnotes
 
-[1](https://jgrizou.com/projects/chemobot/#1fn): There are good reasons for that, convenience and speed for fundamental research is one, but also because a lot of problems worth solving can be captured adequately by data and simulation. My point focuses on hands-on experiments in laboratories.
+1: There are good reasons for that, convenience and speed for fundamental research is one, but also because a lot of problems worth solving can be captured adequately by data and simulation. My point focuses on hands-on experiments in laboratories.
 

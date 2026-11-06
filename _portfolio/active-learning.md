@@ -13,4 +13,4 @@ During the summer 2010, I visited for three months the [Biocircuits Institute](h
 
 I developed an active sampling algorithm for [Support Vector Machines](https://en.wikipedia.org/wiki/Support_vector_machine) by defining an uncertainty measure based on the [Platt’s approximation of the conditional probability to the SVMs](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.1639&g). See [poster](https://github.com/jgrizou/publications/blob/master/poster/internship/2010_active_learning/poster_internship_2010_active.pdf).
 
-I later used similar ideas to [devise experiments in crystallization experiments in a Chemistry lab](https://jgrizou.github.io/website/projects/chemobot#human-vs-robots).
+I later used similar ideas to [devise experiments in crystallization experiments in a Chemistry lab](/projects/chemobot#human-vs-robots).

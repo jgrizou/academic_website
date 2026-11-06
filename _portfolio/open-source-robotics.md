@@ -25,7 +25,7 @@ _Last update: January 2019_
 - [Team](#team)
 - [Projects](#projects)
   - [Poppy Project – Open source robots for art, science, and education](#poppy-project)
-  - [Laboratory Robotics – Tools for open research in chemistry labs](https://jgrizou.com/projects/open-robotics/#laboratory-robotics)
+  - [Laboratory Robotics – Tools for open research in chemistry labs](/projects/open-source-robotics#laboratory-robotics)
   - [Startup – Pollen Robotics & Luos](#start-up)
   - [Personal Projects](#personal-projects)
 - [Resources](#additional-resources)
@@ -42,11 +42,11 @@ On a personal level, I have learned that technology alone can’t make an impact
 ---
 
 ### Team
-The [Poppy Project](https://jgrizou.github.io/website/projects/open_robotics/#poppy-project) was initiated by Matthieu Lapeyre, Pierre Rouanet, and Pierre-Yves Oudeyer while at INRIA. Didier Roy joined and developed the Poppy Education project, which was introduced to many schools in France. I was part of the founding team and was very active during the period 2012–2016.
+The [Poppy Project](/projects/open-source-robotics#poppy-project) was initiated by Matthieu Lapeyre, Pierre Rouanet, and Pierre-Yves Oudeyer while at INRIA. Didier Roy joined and developed the Poppy Education project, which was introduced to many schools in France. I was part of the founding team and was very active during the period 2012–2016.
 
-The [laboratory robotics work](https://jgrizou.github.io/website/projects/open_robotics/#laboratory-robotics) was developed while I worked as a research associate and team leader in a chemistry lab (2015–2017). See the [associated project page](https://jgrizou.github.io/website/projects/chemobot) for more info.
+The [laboratory robotics work](/projects/open-source-robotics#laboratory-robotics) was developed while I worked as a research associate and team leader in a chemistry lab (2015–2017). See the [associated project page](/projects/chemobot) for more info.
 
-The start-up [Pollen Robotics](https://jgrizou.github.io/website/projects/open_robotics/#start-up) was co-founded by Matthieu Lapeyre, Pierre Rouanet, Nicolas Rabault, and myself. I acted as COO and departed for new adventures in 2018.
+The start-up [Pollen Robotics](/projects/open-source-robotics#start-up) was co-founded by Matthieu Lapeyre, Pierre Rouanet, Nicolas Rabault, and myself. I acted as COO and departed for new adventures in 2018.
 
 ---
 
@@ -113,7 +113,7 @@ The ErgoJr robot is the primary robot used by [Poppy Education](https://www.popp
 Between 2012 and 2016, as part of the founding team, I had an active role in the development of the project. I was especially active on the [forum](https://forum.poppy-project.org/) to develop the community. I built, and contributed to, several tools and robots.
 
 #### First ErgoJr  
-I built the [first version](https://twitter.com/jgrizou/status/563646210058502145) of the ErgoJr robot. In the quest of modular robot design, I developed a set of OpenScad libraries to develop parametric robotic parts using code. Full details on the [dedicated project page](https://jgrizou.github.io/website/projects/parametric_parts).
+I built the [first version](https://twitter.com/jgrizou/status/563646210058502145) of the ErgoJr robot. In the quest of modular robot design, I developed a set of OpenScad libraries to develop parametric robotic parts using code. Full details on the [dedicated project page](/projects/parametric-parts/).
 
 ![The first Poppy ErgoJr robot jumping.](../images/poppy_first_ergo.jpg)  
 *The first Poppy ErgoJr robot jumping.*
@@ -149,7 +149,7 @@ For more information:
 
 ### Laboratory Robotics
 
-Between 2015 and 2018, I led a team of interdisciplinary researchers in a Chemistry lab on the [digitization of Chemistry](https://jgrizou.github.io/website/projects/chemobot). As a trained roboticist, I developed tools to help less experienced programmers build automated laboratory devices and robots. Below are some tools I developed, with more available on the [Cronin group Github page](https://github.com/croningp).
+Between 2015 and 2018, I led a team of interdisciplinary researchers in a Chemistry lab on the [digitization of Chemistry](/projects/chemobot). As a trained roboticist, I developed tools to help less experienced programmers build automated laboratory devices and robots. Below are some tools I developed, with more available on the [Cronin group Github page](https://github.com/croningp).
 
 #### Commanduino – Arduino Control in Python  
 The [Commanduino](https://github.com/croningp/commanduino) library is a Python library used to communicate with Arduino devices via Python, as opposed to hardcoding behavior onto the Arduino itself.
@@ -216,9 +216,11 @@ The [Dropfactory robot](https://github.com/croningp/dropfactory) is a great exam
 ![Open source laboratory robot](../images/cronin_dropfactory.gif)  
 *Open source laboratory robot I developed.*
 
-I developed this robot to undertake [research on the efficiency of curious algorithms on the exploration of chemical systems](https://jgrizou.github.io/website/projects/chemobot#dropfactory). Dropfactory can perform 300 droplet experiments a day in full autonomy (each experiment requires recording of 1m30s). Compared to previous robots, this is a 6-fold improvement and a major leap in reliability. This robot performed more than 20k droplet experiments while I worked in the Cronin group and routinely functioned for 12 hours per day.
+I developed this robot to undertake [research on the efficiency of curious algorithms on the exploration of chemical systems](/projects/chemobot#dropfactory). Dropfactory can perform 300 droplet experiments a day in full autonomy (each experiment requires recording of 1m30s). Compared to previous robots, this is a 6-fold improvement and a major leap in reliability. This robot performed more than 20k droplet experiments while I worked in the Cronin group and routinely functioned for 12 hours per day.
 
 ---
+
+<a id="start-up"></a>
 
 # Startup – Pollen Robotics and Luos
 
@@ -263,6 +265,6 @@ I voluntarily departed from Pollen Robotics in 2018 following a pivot. This pivo
 
 # Personal Projects
 
-Personal projects are listed on the project page, under the ["Stuff I built"](https://jgrizou.com/website/projects/#stuff) section.
+Personal projects are listed on the project page, under the ["Stuff I built"](/projects/#stuff-i-built) section.
 
 ---

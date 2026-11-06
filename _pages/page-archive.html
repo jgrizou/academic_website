@@ -6,6 +6,6 @@ author_profile: false
 ---
 
 {% include base_path %}
-{% for post in site.pages %}
+{% for post in site.pages %}{% if post.redirect_to %}{% continue %}{% endif %}
   {% include archive-single.html %}
 {% endfor %}

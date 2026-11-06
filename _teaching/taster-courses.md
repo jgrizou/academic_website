@@ -10,4 +10,4 @@ location: "Online"
 
 ### Taster Courses
 
-- **[Teaching machine learning with pancakes](https://jgrizou.com/teaching/pancakes)** (2019)
+- **[Teaching machine learning with pancakes](/teaching/pancakes/)** (2019)

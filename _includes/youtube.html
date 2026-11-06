@@ -1,0 +1,21 @@
+<a id="{{ include.id }}"></a>
+
+<div class="container">
+  <div class="row align-self-center justify-content-center" style="margin-bottom: 1rem">
+    <div class="{{ include.col | default: "col" }}">
+      <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item"
+          src="https://www.youtube.com/embed/{{ include.id }}?start={{ include.start | default: 0 }}&rel=0"
+          allowfullscreen>
+          </iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row align-self-center justify-content-center" style="margin-top: -1rem; margin-bottom: 1rem; font-size: 0.75rem;">
+    <div class="{{ include.col | default: "col" }}">
+      <div align="center" style="text-align: justify; text-justify: inter-word; text-align-last: center;">
+        {% if include.sub %} {{ include.sub }} {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

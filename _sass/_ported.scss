@@ -1,0 +1,131 @@
+/* ==========================================================================
+   PAGES PORTED FROM THE OLD SITE (vault mini-site, pancakes)
+   The subset of the Bootstrap 4 grid they use, plus the vault app embeds.
+   ========================================================================== */
+
+@mixin col($n) {
+  flex: 0 0 percentage($n / 12);
+  max-width: percentage($n / 12);
+}
+
+.page__content,
+.iframed-page {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+  }
+
+  .col,
+  [class^="col-"],
+  [class*=" col-"] {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding: 0 0.5em;
+  }
+
+  .col {
+    flex: 1 0 0%;
+    max-width: 100%;
+  }
+
+  @each $n in 5, 6, 7, 12 {
+    .col-#{$n} { @include col($n); }
+  }
+
+  @media (min-width: 576px) {
+    @each $n in 4, 6, 10 {
+      .col-sm-#{$n} { @include col($n); }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .col-md {
+      flex: 1 0 0%;
+      max-width: 100%;
+    }
+
+    @each $n in 4, 6, 8, 10 {
+      .col-md-#{$n} { @include col($n); }
+    }
+  }
+
+  @media (min-width: 992px) {
+    .col-lg {
+      flex: 1 0 0%;
+      max-width: 100%;
+    }
+
+    @each $n in 3, 4, 6, 8, 10 {
+      .col-lg-#{$n} { @include col($n); }
+    }
+  }
+
+  .align-items-center { align-items: center; }
+  .justify-content-center { justify-content: center; }
+  .mb-4 { margin-bottom: 1.5rem; }
+
+  .nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+
+    &::before {
+      display: block;
+      content: "";
+    }
+
+    .embed-responsive-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* FitVids wraps these iframes too; the ratio set here wins */
+    .fluid-width-video-wrapper {
+      position: static;
+      padding-top: 0 !important;
+    }
+  }
+
+  .embed-responsive-16by9::before { padding-top: 56.25%; }
+  .embed-responsive-vault::before { padding-top: 166.67%; }
+  .embed-responsive-hood::before { padding-top: 83.33%; }
+
+  .resp-div {
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+
+  .resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #000;
+  }
+
+  .vault { padding-top: 164.5%; }
+  .hood { padding-top: 83.33%; }
+}
+
+/* Quick Access is embedded full page by the openvault app */
+.iframed-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+}

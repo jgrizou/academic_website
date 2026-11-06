@@ -42,11 +42,11 @@ You will find below several options to play with these interfaces and gain a dee
 
 ### Learning tracks
 
-Quick access: [Crack it](crack-it) [Try it](try-it) [Grasp it](grasp-it)
+Quick access: [Crack it](#crack-it) [Try it](#try-it) [Grasp it](#grasp-it)
 
 ---
 
-### Crack it – the open vault challenge
+### Crack it – the open vault challenge {#crack-it}
 
 > When you teach a child something you take away forever his chance of discovering it for himself – Jean Piaget
 
@@ -56,45 +56,45 @@ In this challenge, you will see me entering a secret code in various interfaces.
 
 The challenge is divided into levels of increasing complexity, designed for a progressive learning experience. Clues and take home messages are available if you get stuck.
 
-[Go to challenge](https://jgrizou.com/projects/vault/challenge)
+[Go to challenge](/projects/vault/challenge/)
 
 ---
 
-### Try it
+### Try it {#try-it}
 
 If you do not have time for the challenge, you can directly try any version below.
 
 ![Demo 2](/images/demo_1x2_2-1.gif)  
-[2 buttons](https://jgrizou.com/projects/vault/demo/1x2/)
+[2 buttons](/projects/vault/demo/1x2/)
 
 ![Demo 3](/images/demo_3x3_fullpad_1.gif)  
-[9 buttons](https://jgrizou.com/projects/vault/demo/3x3/)
+[9 buttons](/projects/vault/demo/3x3/)
 
 ![Demo 4](/images/demo_touch_1.gif)  
-[Touch](https://jgrizou.com/projects/vault/demo/1x2/)
+[Touch](/projects/vault/demo/touch/)
 
 ![Demo 5](/images/demo_draw_1.gif)  
-**Draw**
+[Draw](/projects/vault/demo/draw/)
 
 ![Demo 6](/images/demo_audio_1.gif)  
-[Speak](https://jgrizou.com/projects/vault/demo/1x2/)
+[Speak](/projects/vault/demo/audio/)
 
 ![Demo 7](/images/demo_keyboard_1.gif)  
-[Keyboard](https://jgrizou.com/projects/vault/demo/1x2/)
+[Keyboard](/projects/vault/demo/keyboard/)
 
 For each version, a small explanatory text is provided along with a didactic video. If this is your first time, I recommend going through each version in order.
 
-[Go to demo](https://jgrizou.com/projects/vault/demo)
+[Go to demo](/projects/vault/demo/)
 
 ---
 
-### Grasp it – look under the hood
+### Grasp it – look under the hood {#grasp-it}
 
 If you want to see how it works, I have built a little window into the machinery powering the interface. It provides detailed feedback about the current state of the machine.
 
 It also allows you to challenge the interface in complex ways. For example, I sometimes use these advanced versions to fool the machine into making a false prediction, or to select my actions such that it takes the longest possible time to identify a digit.
 
-[Go to tutorial](https://jgrizou.com/contact/projects/vault/tuto)
+[Go to tutorial](/projects/vault/tuto/)
 
 ---
 
@@ -102,7 +102,7 @@ It also allows you to challenge the interface in complex ways. For example, I so
 
 Because I have consistently failed to explain what a self-calibrating interface does to other researchers, friends or family in a few minutes. This web application is my attempt at explaining, showing, and getting people to feel what a self-calibrating interface does in one minute on my phone.
 
-I also have the intuition that this technology can be useful. But I cannot figure out how on my own, I am too involved in the research and find it hard to think outside the box. By implementing this technology into an easy-to-share demonstration, I am hoping to reach a variety of people. And maybe one day someone will figure out a place to apply it for good. If you think of some application, feel free to [contact me](https://jgrizou.com/contact/).
+I also have the intuition that this technology can be useful. But I cannot figure out how on my own, I am too involved in the research and find it hard to think outside the box. By implementing this technology into an easy-to-share demonstration, I am hoping to reach a variety of people. And maybe one day someone will figure out a place to apply it for good. If you think of some application, feel free to [contact me](/).
 
 ---
 
@@ -111,10 +111,10 @@ I also have the intuition that this technology can be useful. But I cannot figur
 1. **The Open Vault Challenge – Learning how to build calibration-free interactive systems by cracking the code of a vault.** Grizou, J. (2019). *International Joint Conferences on Artificial Intelligence.*  
    - [pdf](https://arxiv.org/pdf/1906.02485.pdf)  
    - [doi](https://doi.org/10.24963/ijcai.2019/942)  
-   - [project](https://jgrizou.github.io/website/projects/vault)
+   - [project](/projects/vault)
 
 Detailed information, papers, and code available on [this project page](https://jgrizou.com/projects/thesis).
 
-Feel free to [get in touch](https://jgrizou.com/contact/).
+Feel free to [get in touch](/).
 
 

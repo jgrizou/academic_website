@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row align-self-center justify-content-center">
+    <div class="{{ include.col | default: "col" }}">
+      <div align="center">
+        <img class="img-responsive center-block" src="{{ include.src }}" alt="{{ include.sub }}">
+      </div>
+    </div>
+  </div>
+  <div class="row align-self-center justify-content-center" style="margin-top: -1rem; margin-bottom: 1rem; font-size: 0.75rem;">
+    <div class="{{ include.col | default: "col" }}">
+      <div align="center" style="text-align: justify; text-justify: inter-word; text-align-last: center;">
+        {% if include.sub %} {{ include.sub }} {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

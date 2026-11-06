@@ -19,7 +19,7 @@ location: "Inria / University of Bordeaux"
 ### Content
 
 ### Approach
-*Can an agent learn a task from human instruction signals without knowing the meaning of the communicative signals? Can we learn from unlabeled instructions?* [1](https://jgrizou.com/projects/thesis/#fn1)
+*Can an agent learn a task from human instruction signals without knowing the meaning of the communicative signals? Can we learn from unlabeled instructions?* [1](#footnotes)
 
 The problem resembles a chicken-and-egg scenario: to learn the task you need to know the meaning of the instructions (interactive learning), and to learn the meaning of the instructions you need to know the task (supervised learning).
 
@@ -33,7 +33,7 @@ Hence, by measuring the consistency of the user signal-to-meaning mapping with r
 
 Our contribution is a variety of methods to measure the consistency of an interaction, as well as a planning algorithm based on the uncertainty of that measure. We further proposed methods to scale this work to continuous state domains, infinite numbers of tasks, and multiple interaction frame hypotheses. We further applied these methods to a human-robot learning task using speech as the modality of interaction and to brain-computer interfaces with real subjects.
 
-I am currently working on a simple and visual explanation of this research. In the meantime, please refer to the videos and documents in the [additional resources section](https://jgrizou.github.io/website/projects/thesis/#additional-resources).
+I am currently working on a simple and visual explanation of this research. In the meantime, please refer to the videos and documents in the [additional resources section](/projects/thesis#additional-resources).
 
 ---
 
@@ -58,7 +58,7 @@ The demo takes the form of a challenge to open a vault. The vault is secured by 
 There are 5 levels of increasing complexity, and from level 3 onward the interface is built using the calibration-free interface paradigms presented on this page, making it difficult for an observer to infer what the user is typing as the meaning associated with each button/action is decided on the fly by the human.
 
 #### Resources
-1. **The Open Vault Challenge–Learning how to build calibration-free interactive systems by cracking the code of a vault.** Grizou, Jonathan (2019). *International Joint Conferences on Artificial Intelligence.* [pdf](https://arxiv.org/pdf/1906.02485.pdf) [project](https://jgrizou.github.io/website/projects/thesis)
+1. **The Open Vault Challenge–Learning how to build calibration-free interactive systems by cracking the code of a vault.** Grizou, Jonathan (2019). *International Joint Conferences on Artificial Intelligence.* [pdf](https://arxiv.org/pdf/1906.02485.pdf) [project](/projects/thesis)
 
 ---
 
@@ -119,10 +119,10 @@ In later studies, we developed a new uncertainty measure taking into account the
 1. **Interactive Learning from Unlabeled Instructions.** Grizou, J., Iturrate, I., Montesano, L., Oudeyer, P.-Y., & Lopes, M. (2014). *Conference on Uncertainty in Artificial Intelligence (UAI).* [pdf](https://hal.archives-ouvertes.fr/hal-01007689/PDF/grizou2014interactive.pdf) [poster](https://github.com/jgrizou/publications/tree/master/paper/conference/2014_uai)
 
 ### Can humans solve this problem?
-Inspired by the above results, we devised an experimental setup to investigate the processes used by humans to negotiate a protocol of interaction when they do not already share one. More information on the [dedicated project page](https://jgrizou.github.io/website/projects/coco_game).
+Inspired by the above results, we devised an experimental setup to investigate the processes used by humans to negotiate a protocol of interaction when they do not already share one. More information on the [dedicated project page](/projects/coco-game).
 
 ## Awards
-I received the [Prix Le Monde de la Recherche Universitaire 2015](https://www.lemonde.fr/kiosque/recherche/laureats/prix-recherche-laureats-2015.html) for this work. Each year, this prize is awarded to 5 young French scientists across all fields of ‘hard’ science. [Cédric Villani](https://en.wikipedia.org/wiki/C%C3%A9dric_Villani) (2010 Fields Medal) chaired the jury. We [co-authored](https://www.amazon.fr/Cedric-Villani-pr%C3%A9sente-laur%C3%A9ats-monde/dp/2746510944/) a book featuring the work of each laureate. More: [Application letter](https://jgrizou.github.io/website/projects/thesis/media/candidature_prix_le_monde.pdf) [INRIA article](http://www.inria.fr/centre/bordeaux/actualites/j.-grizou-laureat-du-prix-le-monde-de-la-recherche-universitaire) [HuffPost article](http://www.huffingtonpost.fr/2016/02/08/ordinateur-lire-pensees-ma-these-en-deux-minutes_n_9168306.html)
+I received the [Prix Le Monde de la Recherche Universitaire 2015](https://www.lemonde.fr/kiosque/recherche/laureats/prix-recherche-laureats-2015.html) for this work. Each year, this prize is awarded to 5 young French scientists across all fields of ‘hard’ science. [Cédric Villani](https://en.wikipedia.org/wiki/C%C3%A9dric_Villani) (2010 Fields Medal) chaired the jury. We [co-authored](https://www.amazon.fr/Cedric-Villani-pr%C3%A9sente-laur%C3%A9ats-monde/dp/2746510944/) a book featuring the work of each laureate. More: [Application letter](/files/candidature_prix_le_monde.pdf) [INRIA article](http://www.inria.fr/centre/bordeaux/actualites/j.-grizou-laureat-du-prix-le-monde-de-la-recherche-universitaire) [HuffPost article](http://www.huffingtonpost.fr/2016/02/08/ordinateur-lire-pensees-ma-these-en-deux-minutes_n_9168306.html)
 
 I received the [student travel award](http://www.er.ams.eng.osaka-u.ac.jp/icdl-epirob-2013/index.html) for our first paper on the topic titled: *Robot Learning Simultaneously a Task and How to Interpret Human Instructions, ICDL-EpiRob, 2013*.
 
@@ -141,7 +141,7 @@ Tutorial:
 [All related videos](https://www.youtube.com/playlist?list=PLBppiRCztuKohELU34f2LBQ8-8X8R8zo0)
 
 ### Publications
-1. **The Open Vault Challenge–Learning how to build calibration-free interactive systems by cracking the code of a vault.** Grizou, Jonathan (2019). *International Joint Conferences on Artificial Intelligence.* [pdf](https://arxiv.org/pdf/1906.02485.pdf) [project](https://jgrizou.github.io/website/projects/thesis)
+1. **The Open Vault Challenge–Learning how to build calibration-free interactive systems by cracking the code of a vault.** Grizou, Jonathan (2019). *International Joint Conferences on Artificial Intelligence.* [pdf](https://arxiv.org/pdf/1906.02485.pdf) [project](/projects/thesis)
 2. **Learning from Unlabeled Interaction Frames.** Grizou, J. (2014). *PhD Thesis.* **PhD Thesis Award.** [pdf](https://github.com/jgrizou/thesis_manuscript/releases/final/) [code](https://github.com/jgrizou/thesis_code) [latex](https://github.com/jgrizou/thesis_manuscript)
 3. **Exploiting task constraints for self-calibrated brain-machine interface control using error-related potentials.** Iturrate, I., Grizou, J., Omedes, J., Oudeyer, P., Lopes, M., et al. (2015). *PloS one.* [pdf](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131491) [github](https://github.com/flowersteam/self_calibration_BCI_plosOne_2015)
 4. **Calibration-Free BCI Based Control.** Grizou, J., Iturrate, I., Montesano, L., Oudeyer, P.-Y., & Lopes, M. (2014). *International AAAI Conference on Artificial Intelligence.* [pdf](https://hal.archives-ouvertes.fr/hal-00984068/PDF/grizou2014calibration.pdf) [poster](https://github.com/jgrizou/publications/tree/master/paper/conference/2014_aaai)

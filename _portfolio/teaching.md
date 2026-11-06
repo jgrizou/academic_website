@@ -26,7 +26,7 @@ redirect_from:
 
 <h3>Taster courses</h3>
 <ul>
-    <li><a href="https://jgrizou.com/teaching/pancakes">Teaching machine learning with pancakes</a> (2019)</li>
+    <li><a href="/teaching/pancakes/">Teaching machine learning with pancakes</a> (2019)</li>
 </ul>
 
 <h3>Essays</h3>
