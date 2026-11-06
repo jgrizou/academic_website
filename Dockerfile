@@ -5,7 +5,16 @@ FROM ruby:3.2
 RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
+    ca-certificates \
     && rm -rf /var/lib/apt/lists/*
+
+# Apply the eMudhra workaround before any RubyGems HTTPS downloads. Keep this
+# even on distributions with updated trust packages (cross-signs matter).
+COPY _security/distrust-emudhra.sh /usr/local/bin/distrust-emudhra
+RUN sh /usr/local/bin/distrust-emudhra
+
+# Node otherwise uses its own compiled-in roots, independent of Debian's store.
+ENV NODE_OPTIONS=--use-openssl-ca
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app
