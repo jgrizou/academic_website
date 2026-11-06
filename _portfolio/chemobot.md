@@ -144,7 +144,17 @@ Average for the crystallization prediction accuracy between the classes of cryst
 
    
 
-<a id="nanobot"></a>
+## Hierarchical Exploration of Gold Nanoparticles {#nanobot}
+
+We developed a liquid-handling robot built with the aim of evolving the size and shape of gold nanoparticles (AuNPs) as a function of composition via an automated evolutionary process. The robot synthesises nanoparticles by mixing reagents in different ratios, placing them in vials and extraction to in-line UV-Vis analysis that is used to compute a fitness value.
+
+![Gold nanoparticles synthesizer](../images/nano_platform.png)
+_Custom autonomous gold nanoparticles synthesizer. We see the reagents, the pumps, the Geneva wheel design allowing to run 15 reactions simultaneously, the heater that maintain a constant temperature and the in-line UV-Vis cell and spectrometer for the analysis._
+
+The project aimed at exploring how we could reuse the result of genetic algorithm experiments (e.g. evolution of nano-spheres) to evolve more complex nanoparticles such as nano-rods. The diagram below illustrate this process.
+
+![Evolving spheres, rods and arrow-headed nanorods](../images/nano_diagram.png)
+_Spheres are evolved starting from raw chemicals. The best candidates are reused for the synthesis of rods along with other chemicals. The best rods obtained are reused as seeds to obtain arrow-headed gold nanorods._
 
 After several cycles and the application of a genetic algorithm (GA), the fitness factor at each stage increased every generation leading towards the desired outcome. Our system could synthesise recursively gold nanospheres, gold nanorods (AuNRs), and arrow-headed gold nanorods with high reproducibility.
 

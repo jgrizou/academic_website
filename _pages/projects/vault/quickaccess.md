@@ -110,7 +110,7 @@ Start with the simpler button-based demos to understand the core concept, then e
     </div>
     <div class="col-7">
       <h4><a href="https://openvault.jgrizou.com/#/ui/tuto_1x2.json">Buttons - Pre-Calibrated - Guided tutorial</a></h4>
-      <p>This guided tutorial walks you through the interface step-by-step with two pre-calibrated buttons. You will see how the system progressively eliminates possibilities and converges on your intended digit. This is perfect for understanding the tutorial interface and what is happenign on the right panel before moving to the self-calibrating tutorials.</p>
+      <p>This guided tutorial walks you through the interface step-by-step with two pre-calibrated buttons. You will see how the system progressively eliminates possibilities and converges on your intended digit. This is perfect for understanding the tutorial interface and what is happening on the right panel before moving to the self-calibrating tutorials.</p>
     </div>
   </div>
 

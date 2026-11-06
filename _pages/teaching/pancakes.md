@@ -20,7 +20,7 @@ To start the workshop, I pull pancakes out of my bag and say:
 
 > Yesterday I cooked pancakes but I mixed them all by mistake. These pancakes have different shapes, colors and flavors.
 >
-> There are two flavors, orange and vanilla. I am allergic to orange and if I eat one I dye. Can you sort the vanilla pancakes for me?
+> There are two flavors, orange and vanilla. I am allergic to orange and if I eat one I die. Can you sort the vanilla pancakes for me?
 >
 > But wait, you cannot give me half-eaten pancakes, it is rude! the only way to know the flavor of a pancake is to eat it all.
 >
@@ -77,7 +77,7 @@ And that is it, they reinvented for themselves the process behind classification
 
 I explained to them how each type of classification boundaries corresponds to different classification algorithms. Some algorithms make linear assumptions ([logistic regression](https://en.wikipedia.org/wiki/Logistic_regression), [LDA](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)), some work in terms of [neighbours](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) or use [kernels](https://en.wikipedia.org/wiki/Kernel_method), and some define a hierarchical [decision tree](https://en.wikipedia.org/wiki/Decision_tree). They are all valid way to draw the line between classes, some methods will work better on different data but in the end, it is up to the data scientist to select between models.
 
-They were then able to take new pancakes from the table and separate the vanilla from the orange one without eating them! I got to enjoy some vanilla pancakes and did not dye eating orange one, mission accomplished. Congratulations!
+They were then able to take new pancakes from the table and separate the vanilla from the orange one without eating them! I got to enjoy some vanilla pancakes and did not die eating orange one, mission accomplished. Congratulations!
 
 ## Going further
 
